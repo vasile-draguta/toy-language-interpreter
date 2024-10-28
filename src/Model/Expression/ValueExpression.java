@@ -1,6 +1,7 @@
 package Model.Expression;
 
 import Controller.AppException;
+import Model.States.ProgState;
 import Model.States.SymTable.SymTable;
 import Model.Values.IValue;
 
@@ -12,7 +13,7 @@ public class ValueExpression implements IExpression {
     }
 
     @Override
-    public IValue evaluate(SymTable symTable) throws AppException {
+    public IValue evaluate(ProgState state) throws AppException {
         return value;
     }
 
@@ -21,4 +22,8 @@ public class ValueExpression implements IExpression {
         return value.toString();
     }
 
+    @Override
+    public IExpression deepCopy() {
+        return null;
+    }
 }
