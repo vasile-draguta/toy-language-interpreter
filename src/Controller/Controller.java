@@ -7,10 +7,11 @@ import Repository.IRepository;
 
 public class Controller {
     private IRepository repository;
-    private Boolean displayFlag = false;
+    private Boolean displayFlag;
 
-    public Controller(IRepository repository) {
+    public Controller(IRepository repository, Boolean displayFlag) {
         this.repository = repository;
+        this.displayFlag = displayFlag;
     }
 
     public ProgState oneStep(ProgState state) throws AppException {
@@ -25,9 +26,10 @@ public class Controller {
 
     public void allSteps() throws AppException {
         ProgState state = repository.getCurrentProgram();
+        System.out.println(state.toString());
         while (!state.getExecutionStack().isEmpty()) {
             oneStep(state);
-            displayState(state);
+            System.out.println(state.toString());
         }
     }
 
@@ -39,10 +41,5 @@ public class Controller {
         this.displayFlag = displayFlag;
     }
 
-    private void displayState(ProgState state) {
-        if(displayFlag) {
-            System.out.println(state);
-        }
-    }
 
 }

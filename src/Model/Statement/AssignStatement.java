@@ -16,7 +16,7 @@ public class AssignStatement implements IStatement {
 
     @Override
     public ProgState execute(ProgState state) throws AppException {
-        state.getSymTable().declareVar(varName, expression.evaluate(state));
+        state.getSymTable().setValue(varName, expression.evaluate(state));
         return null;
     }
 

@@ -32,13 +32,15 @@ public class ProgState {
         this.symTable = symTable;
         this.output = output;
         this.originalProgram = originalProgram;
+        executionStack.push(originalProgram);
     }
 
     @Override
     public String toString() {
         return "Execution Stack: " + executionStack.toString() + "\n" +
                 "Symbol Table: " + symTable.toString() + "\n" +
-                "Output: " + output.toString() + "\n";
+                "Output: " + output.toString() + "\n" +
+                "-------------------\n";
     }
 
 
