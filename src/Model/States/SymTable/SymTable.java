@@ -46,4 +46,16 @@ public class SymTable implements ISymTable {
 
         return newSymTable;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder result = new StringBuilder();
+        for (String key : symTable.getAllKeys()) {
+            result.append(key).append(" -> ").append(symTable.LookUp(key));
+            if (symTable.getAllKeys().indexOf(key) != symTable.getAllKeys().size() - 1) {
+                result.append(", ");
+            }
+        }
+        return result.toString();
+    }
 }

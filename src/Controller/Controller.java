@@ -14,6 +14,10 @@ public class Controller {
         this.displayFlag = displayFlag;
     }
 
+    public void displayOutput() {
+        System.out.println(repository.getCurrentProgram().getOutput().toString());
+    }
+
     public ProgState oneStep(ProgState state) throws AppException {
         IExecutionStack stack = state.getExecutionStack();
         if (stack.isEmpty()) {
@@ -29,17 +33,10 @@ public class Controller {
         System.out.println(state.toString());
         while (!state.getExecutionStack().isEmpty()) {
             oneStep(state);
-            System.out.println(state.toString());
+            if (displayFlag) {
+                System.out.println(state);
+            }
         }
+        displayOutput();
     }
-
-    public Boolean getDisplayFlag() {
-        return displayFlag;
-    }
-
-    public void setDisplayFlag(Boolean displayFlag) {
-        this.displayFlag = displayFlag;
-    }
-
-
 }
