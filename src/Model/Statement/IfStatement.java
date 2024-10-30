@@ -1,9 +1,8 @@
 package Model.Statement;
 
-import Controller.AppException;
+import Exceptions.StatementException;
 import Model.Expression.IExpression;
 import Model.States.ProgState;
-import Model.Types.BooleanType;
 import Model.Values.BooleanValue;
 import Model.Values.IValue;
 
@@ -28,11 +27,11 @@ public class IfStatement implements IStatement {
     }
 
     @Override
-    public ProgState execute(ProgState state) throws AppException {
+    public ProgState execute(ProgState state) throws StatementException {
         IValue value = expression.evaluate(state);
 
         if (!(value.getType() instanceof Model.Types.BooleanType)) {
-            throw new AppException("If statement requires a boolean expression");
+            throw new StatementException("If statement requires a boolean expression");
         }
 
         if(((BooleanValue)value).getValue()) {

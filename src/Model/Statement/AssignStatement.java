@@ -1,9 +1,8 @@
 package Model.Statement;
 
-import Controller.AppException;
+import Exceptions.StatementException;
 import Model.Expression.IExpression;
 import Model.States.ProgState;
-import Model.States.SymTable.SymTable;
 
 public class AssignStatement implements IStatement {
     private final String varName;
@@ -15,7 +14,7 @@ public class AssignStatement implements IStatement {
     }
 
     @Override
-    public ProgState execute(ProgState state) throws AppException {
+    public ProgState execute(ProgState state) throws StatementException {
         state.getSymTable().setValue(varName, expression.evaluate(state));
         return null;
     }

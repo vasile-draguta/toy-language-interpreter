@@ -1,6 +1,6 @@
 package Model.Statement;
 
-import Controller.AppException;
+import Exceptions.StatementException;
 import Model.States.ProgState;
 
 public class CompStatement implements IStatement {
@@ -13,7 +13,7 @@ public class CompStatement implements IStatement {
     }
 
     @Override
-    public ProgState execute(ProgState state) throws AppException {
+    public ProgState execute(ProgState state) throws StatementException {
         state.getExecutionStack().push(second);
         state.getExecutionStack().push(first);
         return state;

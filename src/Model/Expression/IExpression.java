@@ -1,11 +1,11 @@
 package Model.Expression;
 
-import Controller.AppException;
+import Exceptions.AppException;
 import Model.States.ProgState;
 import Model.Values.IValue;
 
 public interface IExpression {
-    IValue evaluate(ProgState state) throws AppException;
+    IValue evaluate(ProgState state);
     String toString();
     IExpression deepCopy();
 }

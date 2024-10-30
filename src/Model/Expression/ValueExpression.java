@@ -1,8 +1,7 @@
 package Model.Expression;
 
-import Controller.AppException;
+import Exceptions.AppException;
 import Model.States.ProgState;
-import Model.States.SymTable.SymTable;
 import Model.Values.IValue;
 
 public class ValueExpression implements IExpression {

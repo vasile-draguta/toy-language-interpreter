@@ -1,6 +1,6 @@
 package Model.States.SymTable;
 
-import Controller.AppException;
+import Exceptions.SymbolicTableException;
 import Model.Utils.MyDictionary;
 import Model.Utils.MyIDictionary;
 import Model.Values.IValue;
@@ -13,31 +13,31 @@ public class SymTable implements ISymTable {
     }
 
     @Override
-    public void declareVar(String varName, IValue value) throws AppException {
+    public void declareVar(String varName, IValue value) throws SymbolicTableException {
         if (symTable.isDefined(varName)) {
-            throw new AppException("Variable already declared!");
+            throw new SymbolicTableException("Variable already declared!");
         }
         symTable.put(varName, value);
     }
 
     @Override
-    public IValue getValue(String varName) throws AppException {
+    public IValue getValue(String varName) throws SymbolicTableException {
         if (!symTable.isDefined(varName)) {
-            throw new AppException("Variable not defined!");
+            throw new SymbolicTableException("Variable not defined!");
         }
         return symTable.LookUp(varName);
     }
 
     @Override
-    public void setValue(String varName, IValue value) throws AppException {
+    public void setValue(String varName, IValue value) throws SymbolicTableException {
         if (!symTable.isDefined(varName)) {
-            throw new AppException("Variable not defined!");
+            throw new SymbolicTableException("Variable not defined!");
         }
         symTable.put(varName, value);
     }
 
     @Override
-    public ISymTable copy() throws AppException {
+    public ISymTable copy() {
         ISymTable newSymTable = new SymTable();
 
         for (String key : symTable.getAllKeys()) {

@@ -1,6 +1,6 @@
 package Model.Values;
 
-import Controller.AppException;
+import Exceptions.ExpressionException;
 import Model.Types.IType;
 import Model.Types.BooleanType;
 
@@ -37,7 +37,7 @@ public class BooleanValue implements IValue {
         return new BooleanType();
     }
 
-    public IValue compose(IValue other, String operator) throws AppException {
+    public IValue compose(IValue other, String operator) throws ExpressionException {
         if (other instanceof BooleanValue) {
             boolean otherValue = ((BooleanValue) other).getValue();
             return switch (operator) {
@@ -48,6 +48,6 @@ public class BooleanValue implements IValue {
                 default -> throw new IllegalStateException("Unexpected value: " + operator);
             };
         }
-        throw new AppException("Invalid operation between boolean and " + other.getType());
+        throw new ExpressionException("Invalid operation between boolean and " + other.getType());
     }
 }

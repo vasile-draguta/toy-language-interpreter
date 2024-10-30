@@ -1,6 +1,6 @@
 package Model.Statement;
 
-import Controller.AppException;
+import Exceptions.StatementException;
 import Model.States.ProgState;
 import Model.Types.IType;
 
@@ -13,7 +13,7 @@ public class VarDeclStatement implements IStatement {
         this.type = type;
     }
 
-    public ProgState execute(ProgState state) throws AppException {
+    public ProgState execute(ProgState state) throws StatementException {
         state.getSymTable().declareVar(id, type.defaultValue());
         return state;
     }

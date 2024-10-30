@@ -1,6 +1,5 @@
 package Model.Expression;
 
-import Controller.AppException;
 import Model.States.ProgState;
 import Model.Values.IValue;
 
@@ -16,7 +15,7 @@ public class ArithmeticExpression implements IExpression {
     }
 
     @Override
-    public IValue evaluate(ProgState state) throws AppException {
+    public IValue evaluate(ProgState state) {
         return left.evaluate(state).compose(right.evaluate(state), operator);
     }
 

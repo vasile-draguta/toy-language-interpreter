@@ -1,5 +1,6 @@
 import Controller.Controller;
 import Model.Expression.ArithmeticExpression;
+import Model.Expression.LogicExpression;
 import Model.Expression.ValueExpression;
 import Model.Expression.VariableExpression;
 import Model.Statement.*;
@@ -44,11 +45,12 @@ public class Main {
                                         IntegerValue(2))), new AssignStatement("v", new ValueExpression(new IntegerValue(3)))), new PrintStatement(new
                                         VariableExpression("v"))))));
 
+
         ExecutionStack executionStack = new ExecutionStack();
         SymTable symTable = new SymTable();
         Output output = new Output();
 
-        ProgState progState = new ProgState(executionStack, symTable, output, ex3);
+        ProgState progState = new ProgState(executionStack, symTable, output, ex1);
 
         IRepository repository = new Repository();
         repository.addProgramState(progState);
@@ -56,3 +58,7 @@ public class Main {
         controller.allSteps();
     }
 }
+
+//TODO add string type and value
+//TODO add exceptions
+//TODO add file handling

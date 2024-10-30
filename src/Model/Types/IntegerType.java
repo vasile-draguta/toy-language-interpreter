@@ -1,6 +1,6 @@
 package Model.Types;
 
-import Controller.AppException;
+import Exceptions.ExpressionException;
 import Model.Values.IValue;
 import Model.Values.IntegerValue;
 
@@ -18,10 +18,10 @@ public class IntegerType implements IType {
         return "Integer";
     }
 
-    public IType compose(String operation) throws AppException {
+    public IType compose(String operation) throws ExpressionException {
         return switch (operation) {
             case "+", "-", "*", "/", "<", "<=", "==", "!=", ">", ">=" -> new IntegerType();
-            default -> throw new AppException("Invalid operation for IntegerType");
+            default -> throw new ExpressionException("Invalid operation for IntegerType");
         };
     }
 

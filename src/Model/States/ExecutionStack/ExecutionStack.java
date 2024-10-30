@@ -1,5 +1,6 @@
 package Model.States.ExecutionStack;
 
+import Exceptions.ExecutionStackException;
 import Model.Statement.IStatement;
 import Model.Utils.MyIStack;
 import Model.Utils.MyStack;
@@ -20,7 +21,9 @@ public class ExecutionStack implements IExecutionStack {
     }
 
     @Override
-    public IStatement pop() {
+    public IStatement pop() throws ExecutionStackException {
+        if (stack.isEmpty())
+            throw new ExecutionStackException("Execution stack is empty");
         return stack.pop();
     }
 

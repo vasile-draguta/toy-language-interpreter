@@ -1,6 +1,6 @@
 package Model.Values;
 
-import Controller.AppException;
+import Exceptions.ExpressionException;
 import Model.Types.IType;
 import Model.Types.IntegerType;
 
@@ -33,9 +33,13 @@ public class IntegerValue implements IValue{
     }
 
     @Override
-    public IValue compose(IValue other, String operator) throws AppException {
+    public IValue compose(IValue other, String operator) throws ExpressionException {
         if (other instanceof IntegerValue) {
             int otherValue = ((IntegerValue) other).getValue();
+
+            if( operator.equals("/") && otherValue == 0)
+                throw new ExpressionException("Division by zero");
+
             return switch (operator) {
                 case "+" -> new IntegerValue(value + otherValue);
                 case "-" -> new IntegerValue(value - otherValue);
@@ -47,10 +51,10 @@ public class IntegerValue implements IValue{
                 case "<=" -> new BooleanValue(value <= otherValue);
                 case "==" -> new BooleanValue(value == otherValue);
                 case "!=" -> new BooleanValue(value != otherValue);
-                default -> throw new AppException("Invalid operator");
+                default -> throw new ExpressionException("Invalid operator");
             };
         }
-        throw new AppException("Invalid operand");
+        throw new ExpressionException("Invalid operand");
     }
 
     @Override
