@@ -1,5 +1,6 @@
 package Repository;
 
+import Exceptions.RepositoryException;
 import Model.States.ProgState;
 
 import java.util.ArrayList;
@@ -19,7 +20,9 @@ public class Repository implements IRepository {
     }
 
     @Override
-    public ProgState getCurrentProgram() {
+    public ProgState getCurrentProgram() throws RepositoryException {
+        if (repository.isEmpty())
+            throw new RepositoryException("Repository is empty");
         return repository.getLast();
     }
 

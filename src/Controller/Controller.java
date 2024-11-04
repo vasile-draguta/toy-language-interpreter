@@ -1,6 +1,7 @@
 package Controller;
 
 import Exceptions.AppException;
+import Exceptions.ExecutionStackException;
 import Model.Statement.IStatement;
 import Model.States.ExecutionStack.IExecutionStack;
 import Model.States.ProgState;
@@ -19,17 +20,17 @@ public class Controller {
         System.out.println(repository.getCurrentProgram().getOutput().toString());
     }
 
-    public ProgState oneStep(ProgState state) throws AppException {
+    public ProgState oneStep(ProgState state) throws ExecutionStackException {
         IExecutionStack stack = state.getExecutionStack();
         if (stack.isEmpty()) {
-            throw new AppException("Program state stack is empty");
+            throw new ExecutionStackException("Program state stack is empty");
         }
 
         IStatement currentStatement = stack.pop();
         return currentStatement.execute(state);
     }
 
-    public void allSteps() throws AppException {
+    public void allSteps() {
         ProgState state = repository.getCurrentProgram();
         System.out.println(state.toString());
         while (!state.getExecutionStack().isEmpty()) {
@@ -39,5 +40,9 @@ public class Controller {
             }
         }
         displayOutput();
+    }
+
+    public void setDisplayFlag(Boolean displayFlag) {
+        this.displayFlag = displayFlag;
     }
 }
