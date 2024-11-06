@@ -7,4 +7,5 @@ public interface IOutput {
     public void addOutput(String output);
     public void setOutput(String output);
     public String toString();
+    public void clear();
 }

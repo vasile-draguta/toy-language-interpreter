@@ -47,6 +47,13 @@ public class View {
 
         boolean menuIsRunning = true;
 
+        ExecutionStack executionStack = new ExecutionStack();
+        SymTable symTable = new SymTable();
+        Output output = new Output();
+        IRepository repository = new Repository();
+        Controller controller = new Controller(repository, true);
+
+
         while(menuIsRunning) {
             System.out.println("1. Run example 1: " + code1);
             System.out.println("2. Run example 2: " + code2);
@@ -76,14 +83,11 @@ public class View {
             }
 
             if(ex != null) {
-                ExecutionStack executionStack = new ExecutionStack();
-                SymTable symTable = new SymTable();
-                Output output = new Output();
                 ProgState progState = new ProgState(executionStack, symTable, output, ex);
-                IRepository repository = new Repository();
                 repository.addProgramState(progState);
-                Controller controller = new Controller(repository, true);
                 controller.allSteps();
+                symTable.clear();
+                output.clear();
             }
         }
 

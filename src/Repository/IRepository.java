@@ -4,6 +4,7 @@ import Exceptions.RepositoryException;
 import Model.States.ProgState;
 
 public interface IRepository {
-    void addProgramState(ProgState state);
-    ProgState getCurrentProgram() throws RepositoryException;
+    public void addProgramState(ProgState state);
+    public ProgState getCurrentProgram() throws RepositoryException;
+    public void clearCompletedPrograms();
 }

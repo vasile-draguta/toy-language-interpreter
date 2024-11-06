@@ -26,4 +26,16 @@ public class Repository implements IRepository {
         return repository.getLast();
     }
 
+    public void clearCompletedPrograms() {
+        if(repository.isEmpty()) {
+            throw new RepositoryException("No programs to be executed!");
+        }
+
+        for(int i = 0; i < repository.size(); i++) {
+            if(repository.get(i).getExecutionStack().isEmpty()) {
+                repository.remove(repository.get(i));
+            }
+        }
+    }
+
 }

@@ -27,6 +27,10 @@ public class Output implements IOutput {
         this.output.add(output);
     }
 
+    public void clear() {
+        output = new MyList<String>();
+    }
+
     @Override
     public String toString() {
         return this.output.toString();

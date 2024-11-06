@@ -9,4 +9,5 @@ public interface ISymTable {
     public void setValue(String varName, IValue value) throws SymbolicTableException;
     public ISymTable copy();
     public String toString();
+    public void clear();
 }

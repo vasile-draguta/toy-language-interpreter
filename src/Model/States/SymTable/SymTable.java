@@ -6,7 +6,7 @@ import Model.Utils.MyIDictionary;
 import Model.Values.IValue;
 
 public class SymTable implements ISymTable {
-    private final MyIDictionary<String, IValue> symTable;
+    private MyIDictionary<String, IValue> symTable;
 
     public SymTable() {
         this.symTable = new MyDictionary<String, IValue>();
@@ -45,6 +45,10 @@ public class SymTable implements ISymTable {
         }
 
         return newSymTable;
+    }
+
+    public void clear() {
+        symTable = new MyDictionary<String, IValue>();
     }
 
     @Override
