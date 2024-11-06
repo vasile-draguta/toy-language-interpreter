@@ -2,7 +2,6 @@ package View;
 
 import Controller.Controller;
 import Model.Expression.ArithmeticExpression;
-import Model.Expression.LogicExpression;
 import Model.Expression.ValueExpression;
 import Model.Expression.VariableExpression;
 import Model.Statement.*;
@@ -46,18 +45,20 @@ public class View {
 
 
         boolean menuIsRunning = true;
+        boolean displayFlag = true;
 
         ExecutionStack executionStack = new ExecutionStack();
         SymTable symTable = new SymTable();
         Output output = new Output();
         IRepository repository = new Repository();
-        Controller controller = new Controller(repository, true);
+        Controller controller = new Controller(repository, displayFlag);
 
 
         while(menuIsRunning) {
             System.out.println("1. Run example 1: " + code1);
             System.out.println("2. Run example 2: " + code2);
             System.out.println("3. Run example 3: " + code3);
+            System.out.println("4. Switch display flag to: " + (!displayFlag));
             System.out.println("0. Exit");
             System.out.println("Choose an option: ");
             String option;
@@ -73,6 +74,10 @@ public class View {
                     break;
                 case "3":
                     ex = ex3;
+                    break;
+                case "4":
+                    displayFlag = !displayFlag;
+                    controller.setDisplayFlag(displayFlag);
                     break;
                 case "0":
                     menuIsRunning = false;

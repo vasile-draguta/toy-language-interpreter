@@ -7,7 +7,7 @@ import Model.States.ProgState;
 import Repository.IRepository;
 
 public class Controller {
-    private IRepository repository;
+    private final IRepository repository;
     private Boolean displayFlag;
 
     public Controller(IRepository repository, Boolean displayFlag) {
@@ -31,12 +31,11 @@ public class Controller {
 
     public void allSteps() {
         ProgState state = repository.getCurrentProgram();
-        System.out.println(state.toString());
         while (!state.getExecutionStack().isEmpty()) {
-            oneStep(state);
             if (displayFlag) {
                 System.out.println(state);
             }
+            oneStep(state);
         }
         displayOutput();
         repository.clearCompletedPrograms();
