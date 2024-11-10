@@ -35,4 +35,9 @@ public class MyDictionary<K, V> implements MyIDictionary<K, V> {
     public ArrayList<K> getAllKeys() {
         return new ArrayList<K>(this.map.keySet());
     }
+
+    @Override
+    public void remove(K key) {
+        this.map.remove(key);
+    }
 }

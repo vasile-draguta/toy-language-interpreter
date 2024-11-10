@@ -50,7 +50,7 @@ public class View {
         ExecutionStack executionStack = new ExecutionStack();
         SymTable symTable = new SymTable();
         Output output = new Output();
-        IRepository repository = new Repository();
+        IRepository repository = new Repository("../log.txt");
         Controller controller = new Controller(repository, displayFlag);
 
 

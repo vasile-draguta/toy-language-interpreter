@@ -31,11 +31,13 @@ public class Controller {
 
     public void allSteps() {
         ProgState state = repository.getCurrentProgram();
+        repository.logProgramState(state);
         while (!state.getExecutionStack().isEmpty()) {
             if (displayFlag) {
                 System.out.println(state);
             }
             oneStep(state);
+            repository.logProgramState(state);
         }
         displayOutput();
         repository.clearCompletedPrograms();

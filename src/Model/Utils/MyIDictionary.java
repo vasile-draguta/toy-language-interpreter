@@ -6,4 +6,5 @@ public interface MyIDictionary<K, V> {
     V LookUp(K key);
     boolean isDefined(K key);
     ArrayList<K> getAllKeys();
+    void remove(K key);
 }
