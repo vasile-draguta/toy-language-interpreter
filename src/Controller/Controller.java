@@ -46,4 +46,12 @@ public class Controller {
     public void setDisplayFlag(Boolean displayFlag) {
         this.displayFlag = displayFlag;
     }
+
+    public Boolean getDisplayFlag() {
+        return displayFlag;
+    }
+
+    public void addProgram(ProgState program) {
+        repository.addProgramState(program);
+    }
 }

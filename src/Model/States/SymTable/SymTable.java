@@ -9,14 +9,11 @@ public class SymTable implements ISymTable {
     private MyIDictionary<String, IValue> symTable;
 
     public SymTable() {
-        this.symTable = new MyDictionary<String, IValue>();
+        this.symTable = new MyDictionary<>();
     }
 
     @Override
     public void declareVar(String varName, IValue value) throws SymbolicTableException {
-        if (symTable.isDefined(varName)) {
-            throw new SymbolicTableException("Variable already declared!");
-        }
         symTable.put(varName, value);
     }
 
@@ -48,7 +45,7 @@ public class SymTable implements ISymTable {
     }
 
     public void clear() {
-        symTable = new MyDictionary<String, IValue>();
+        symTable = new MyDictionary<>();
     }
 
     @Override
