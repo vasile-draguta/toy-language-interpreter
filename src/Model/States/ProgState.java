@@ -1,19 +1,17 @@
 package Model.States;
 
 import Model.Statement.IStatement;
-import Model.States.ExecutionStack.ExecutionStack;
 import Model.States.ExecutionStack.IExecutionStack;
+import Model.States.FileTable.IFileTable;
 import Model.States.Output.IOutput;
-import Model.States.Output.Output;
 import Model.States.SymTable.ISymTable;
-import Model.States.SymTable.SymTable;
 
 public class ProgState {
     private final IExecutionStack executionStack;
     private final ISymTable symTable;
     private final IOutput output;
+    private final IFileTable fileTable;
 
-    private final IStatement originalProgram;
 
     public IExecutionStack getExecutionStack() {
         return executionStack;
@@ -27,11 +25,15 @@ public class ProgState {
         return output;
     }
 
-    public ProgState(IExecutionStack executionStack, ISymTable symTable, IOutput output, IStatement originalProgram) {
+    public IFileTable getFileTable() {
+        return fileTable;
+    }
+
+    public ProgState(IExecutionStack executionStack, ISymTable symTable, IOutput output, IFileTable fileTable, IStatement originalProgram) {
         this.executionStack = executionStack;
         this.symTable = symTable;
         this.output = output;
-        this.originalProgram = originalProgram;
+        this.fileTable = fileTable;
         executionStack.push(originalProgram);
     }
 
@@ -40,6 +42,7 @@ public class ProgState {
         return "Execution Stack: " + executionStack.toString() + "\n" +
                 "Symbol Table: " + symTable.toString() + "\n" +
                 "Output: " + output.toString() + "\n" +
+                "File Table: " + fileTable.toString() + "\n" +
                 "-------------------\n";
     }
 
