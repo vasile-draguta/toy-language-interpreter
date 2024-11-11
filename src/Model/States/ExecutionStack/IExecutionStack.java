@@ -13,4 +13,5 @@ public interface IExecutionStack {
     String toString();
     IStatement peek();
     List<IStatement> getStatements();
+    void clear();
 }

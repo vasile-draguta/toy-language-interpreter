@@ -11,6 +11,7 @@ public class ProgState {
     private final ISymTable symTable;
     private final IOutput output;
     private final IFileTable fileTable;
+    private IStatement originalProgram;
 
 
     public IExecutionStack getExecutionStack() {
@@ -34,6 +35,15 @@ public class ProgState {
         this.symTable = symTable;
         this.output = output;
         this.fileTable = fileTable;
+        this.originalProgram = originalProgram;
+        executionStack.push(originalProgram);
+    }
+
+    public void reset() {
+        executionStack.clear();
+        symTable.clear();
+        output.clear();
+        fileTable.clear();
         executionStack.push(originalProgram);
     }
 

@@ -16,4 +16,5 @@ public interface IFileTable {
 
     public List<String> getFileList();
 
+    void clear();
 }

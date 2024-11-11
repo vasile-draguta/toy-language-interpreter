@@ -40,4 +40,9 @@ public class MyDictionary<K, V> implements MyIDictionary<K, V> {
     public void remove(K key) {
         this.map.remove(key);
     }
+
+    @Override
+    public void clear() {
+        this.map.clear();
+    }
 }

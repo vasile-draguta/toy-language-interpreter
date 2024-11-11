@@ -75,4 +75,9 @@ public class FileTable implements IFileTable {
         return fileTable.getAllKeys();
     }
 
+    @Override
+    public void clear() {
+        fileTable.clear();
+    }
+
 }

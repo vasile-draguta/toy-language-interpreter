@@ -63,6 +63,11 @@ public class ExecutionStack implements IExecutionStack {
     }
 
     @Override
+    public void clear() {
+        stack.clear();
+    }
+
+    @Override
     public List<IStatement> getStatements() {
         return stack.toList();
     }

@@ -340,3 +340,230 @@ Output: 2
 File Table: {}
 -------------------
 
+Execution Stack: Integer v; v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: print(v) 
+Symbol Table: v -> 2
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: print(v) 
+Symbol Table: v -> 2
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: print(v) 
+Symbol Table: v -> 2
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: print(v) 
+Symbol Table: v -> 2
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: print(v) 
+Symbol Table: v -> 2
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: print(v) 
+Symbol Table: v -> 2
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+
+File Table: {}
+-------------------
+

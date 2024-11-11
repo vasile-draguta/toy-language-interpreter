@@ -10,4 +10,5 @@ public interface MyIStack<T> {
     int size();
     List<T> toList();
     public  List<T> getReversed();
+    void clear();
 }

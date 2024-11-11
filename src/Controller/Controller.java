@@ -32,6 +32,8 @@ public class Controller {
     public void allSteps() {
         ProgState state = repository.getCurrentProgram();
         repository.logProgramState(state);
+        if (state.getExecutionStack().isEmpty())
+            state.reset();
         while (!state.getExecutionStack().isEmpty()) {
             if (displayFlag) {
                 System.out.println(state);

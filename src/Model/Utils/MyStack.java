@@ -44,6 +44,11 @@ public class MyStack<T> implements MyIStack<T> {
     }
 
     @Override
+    public void clear() {
+        this.stack.clear();
+    }
+
+    @Override
     public List<T> getReversed() {
         List<T> reversed = Arrays.asList((T[]) this.stack.toArray());
 

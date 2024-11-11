@@ -7,4 +7,6 @@ public interface MyIDictionary<K, V> {
     boolean isDefined(K key);
     ArrayList<K> getAllKeys();
     void remove(K key);
+
+    void clear();
 }
