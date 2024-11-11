@@ -3,6 +3,7 @@ package Model.States.Output;
 import Model.Utils.MyIList;
 import Model.Utils.MyList;
 
+
 public class Output implements IOutput {
     private MyIList<String> output;
 
@@ -33,6 +34,10 @@ public class Output implements IOutput {
 
     @Override
     public String toString() {
-        return this.output.toString();
+        StringBuilder result = new StringBuilder();
+        for (String line : output) {
+            result.append(line).append("\n");
+        }
+        return result.toString();
     }
 }

@@ -34,7 +34,22 @@ public class ExecutionStack implements IExecutionStack {
 
     @Override
     public String toString() {
-        return stack.toString();
+        StringBuilder result = new StringBuilder();
+        MyIStack<IStatement> copy = new MyStack<>();
+        try {
+            while(!stack.isEmpty()) {
+                IStatement statement = stack.pop();
+                result.append(statement.toString()).append(" ");
+                copy.push(statement);
+            }
+            while(!copy.isEmpty()) {
+                stack.push(copy.pop());
+            }
+        }
+        catch (ExecutionStackException e) {
+            e.printStackTrace();
+        }
+        return result.toString();
     }
 
     @Override
