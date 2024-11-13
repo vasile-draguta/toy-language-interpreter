@@ -567,3 +567,119 @@ Output: 2
 File Table: {}
 -------------------
 
+Execution Stack: string varf; varf = test.in; openFile(varf); Integer varc; readFile(varf); print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: string varf varf = test.in; openFile(varf); Integer varc; readFile(varf); print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: varf = test.in; openFile(varf); Integer varc; readFile(varf); print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: varf = test.in openFile(varf); Integer varc; readFile(varf); print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: openFile(varf); Integer varc; readFile(varf); print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: openFile(varf) Integer varc; readFile(varf); print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer varc; readFile(varf); print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in
+Output: 
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: Integer varc readFile(varf); print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in
+Output: 
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: readFile(varf); print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in, varc -> 0
+Output: 
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: readFile(varf) print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in, varc -> 0
+Output: 
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: print(varc); readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in, varc -> 50
+Output: 
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: print(varc) readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in, varc -> 50
+Output: 
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: readFile(varf); print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in, varc -> 50
+Output: 50
+
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: readFile(varf) print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in, varc -> 50
+Output: 50
+
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: print(varc); closeFile(varf) 
+Symbol Table: varf -> test.in, varc -> 15
+Output: 50
+
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: print(varc) closeFile(varf) 
+Symbol Table: varf -> test.in, varc -> 15
+Output: 50
+
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: closeFile(varf) 
+Symbol Table: varf -> test.in, varc -> 15
+Output: 50
+15
+
+File Table: {test.in=java.io.BufferedReader@41906a77}
+-------------------
+
+Execution Stack: 
+Symbol Table: varf -> test.in, varc -> 15
+Output: 50
+15
+
+File Table: {}
+-------------------
+
