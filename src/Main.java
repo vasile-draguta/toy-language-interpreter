@@ -18,6 +18,7 @@ import View.Command.ExitCommand;
 import View.Command.RunExampleCommand;
 import View.TextMenu;
 
+
 import java.util.ArrayList;
 
 public class Main {
@@ -41,7 +42,7 @@ public class Main {
             menu.addCommand(command);
             key++;
         }
-        menu.addCommand(new DisplayFlagCommand("d", "Toggle display flag", controller));
+//        menu.addCommand(new DisplayFlagCommand("d", "Toggle display flag", controller));
 
         menu.show();
     }

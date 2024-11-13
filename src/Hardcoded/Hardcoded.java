@@ -1,6 +1,7 @@
 package Hardcoded;
 
 import Model.Expression.ArithmeticExpression;
+import Model.Expression.RelationalExpression;
 import Model.Expression.ValueExpression;
 import Model.Expression.VariableExpression;
 import Model.Statement.*;
@@ -54,7 +55,18 @@ public class Hardcoded {
                                                     new CompStatement(new PrintStatement(new VariableExpression("varc")),
                                                             new CompStatement(new ReadFileStatement(new VariableExpression("varf"), "varc"),
                                                                     new CompStatement(new PrintStatement(new VariableExpression("varc")),
-                                                                            new CloseFileStatement(new VariableExpression("varf"))))))))))
+                                                                            new CloseFileStatement(new VariableExpression("varf")))))))))),
+
+            //String code5 = "int a; int b; a=2; b=5; If a < b Then Print(a is less than b) Else Print(a is not less than b);";
+
+            new CompStatement(new VarDeclStatement("a", new IntegerType()), new CompStatement(new VarDeclStatement("b", new IntegerType()),
+                    new CompStatement(new AssignStatement("a", new ValueExpression(new IntegerValue(2))),
+                            new CompStatement(new AssignStatement("b", new ValueExpression(new IntegerValue(5))),
+                                    new IfStatement(new RelationalExpression(new VariableExpression("a"), new VariableExpression("b"), "<"),
+                                            new PrintStatement(new ValueExpression(new StringValue("a is less than b"))),
+                                            new PrintStatement(new ValueExpression(new StringValue("a is not less than b"))))))))
+
+
     ));
 
     public static ArrayList<IStatement> getHardcodedPrograms() {

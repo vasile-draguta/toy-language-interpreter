@@ -683,3 +683,204 @@ Output: 50
 File Table: {}
 -------------------
 
+Execution Stack: Integer a; Integer b; a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer a Integer b; a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer b; a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer b a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: a = 2 b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 2, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: b = 5 if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 2, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 2, b -> 5
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: print(a is less than b) 
+Symbol Table: a -> 2, b -> 5
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: a -> 2, b -> 5
+Output: a is less than b
+
+File Table: {}
+-------------------
+
+Execution Stack: Integer a; Integer b; a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer a Integer b; a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer b; a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer b a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: a = 2 b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 2, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: b = 5 if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 2, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 2, b -> 5
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: print(a is less than b) 
+Symbol Table: a -> 2, b -> 5
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: a -> 2, b -> 5
+Output: a is less than b
+
+File Table: {}
+-------------------
+
+Execution Stack: Integer a; Integer b; a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer a Integer b; a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: 
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer b; a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: Integer b a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: a = 2; b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: a = 2 b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 0, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: b = 5; if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 2, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: b = 5 if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 2, b -> 0
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: if (a < b) then (print(a is less than b)) else (print(a is not less than b)) 
+Symbol Table: a -> 2, b -> 5
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: print(a is less than b) 
+Symbol Table: a -> 2, b -> 5
+Output: 
+File Table: {}
+-------------------
+
+Execution Stack: 
+Symbol Table: a -> 2, b -> 5
+Output: a is less than b
+
+File Table: {}
+-------------------
+
