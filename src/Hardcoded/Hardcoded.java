@@ -104,7 +104,20 @@ public class Hardcoded {
                                     new CompStatement(new VarDeclStatement("a", new RefType(new RefType(new IntegerType()))),
                                             new CompStatement(new NewStatement("a", new VariableExpression("v")),
                                                     new CompStatement(new NewStatement("v", new ValueExpression(new IntegerValue(30))),
-                                                            new PrintStatement(new ReadHeapExpression(new ReadHeapExpression(new VariableExpression("a"))))))))))
+                                                            new PrintStatement(new ReadHeapExpression(new ReadHeapExpression(new VariableExpression("a")))))))))),
+
+            new Pair<>("int v; v=4; (while (v>0) print(v);v=v-1); print(v)",
+                    new CompStatement(new VarDeclStatement("v", new IntegerType()),
+                            new CompStatement(new AssignStatement("v", new ValueExpression(new IntegerValue(4))),
+                                    new CompStatement(new WhileStatement(new RelationalExpression(
+                                            new VariableExpression("v"),
+                                            new ValueExpression(new IntegerValue(0)),
+                                            ">"),
+                                            new CompStatement(new PrintStatement(new VariableExpression("v")),
+                                                    new AssignStatement("v", new ArithmeticExpression("-",
+                                                            new VariableExpression("v"),
+                                                            new ValueExpression(new IntegerValue(1)))))),
+                                            new PrintStatement(new VariableExpression("v"))))))
     ));
 
     public static ArrayList<Pair<String, IStatement>> getHardcodedPrograms() {
