@@ -12,7 +12,7 @@ public class ExecutionStack implements IExecutionStack {
     MyIStack<IStatement> stack;
 
     public ExecutionStack() {
-        stack = new MyStack<IStatement>();
+        stack = new MyStack<>();
     }
 
     @Override
@@ -47,7 +47,7 @@ public class ExecutionStack implements IExecutionStack {
             }
         }
         catch (ExecutionStackException e) {
-            e.printStackTrace();
+            throw new ExecutionStackException("Execution stack is empty");
         }
         return result.toString();
     }

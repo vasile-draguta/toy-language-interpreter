@@ -1,6 +1,5 @@
 package Model.Expression;
 
-import Exceptions.AppException;
 import Model.States.ProgState;
 import Model.Values.IValue;
 

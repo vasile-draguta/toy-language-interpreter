@@ -7,8 +7,8 @@ import Model.Values.IValue;
 import Model.Values.RefValue;
 
 public class WriteHeapStatement implements IStatement {
-    private String varName;
-    private IExpression expression;
+    private final String varName;
+    private final IExpression expression;
 
     public WriteHeapStatement(String varName, IExpression expression) {
         this.varName = varName;

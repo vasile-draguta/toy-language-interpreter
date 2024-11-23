@@ -9,8 +9,8 @@ import Model.Values.IntegerValue;
 import Model.Values.StringValue;
 
 public class ReadFileStatement implements IStatement {
-    private IExpression expression;
-    private String name;
+    private final IExpression expression;
+    private final String name;
 
     public ReadFileStatement(IExpression expression, String name) {
         this.expression = expression;

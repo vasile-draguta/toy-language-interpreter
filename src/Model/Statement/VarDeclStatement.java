@@ -5,8 +5,8 @@ import Model.States.ProgState;
 import Model.Types.IType;
 
 public class VarDeclStatement implements IStatement {
-    private String id;
-    private IType type;
+    private final String id;
+    private final IType type;
 
     public VarDeclStatement(String id, IType type) {
         this.id = id;

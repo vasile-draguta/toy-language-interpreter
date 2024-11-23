@@ -7,9 +7,9 @@ import Model.Values.BooleanValue;
 import Model.Values.IValue;
 
 public class IfStatement implements IStatement {
-    private IExpression expression;
-    private IStatement thenStatement;
-    private IStatement elseStatement;
+    private final IExpression expression;
+    private final IStatement thenStatement;
+    private final IStatement elseStatement;
 
     public IfStatement(IExpression expression, IStatement thenStatement, IStatement elseStatement) {
         this.expression = expression;

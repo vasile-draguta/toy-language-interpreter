@@ -3,9 +3,9 @@ package Model.States.Output;
 import Model.Utils.MyIList;
 
 public interface IOutput {
-    public MyIList<String> getOutputAsList();
-    public void addOutput(String output);
-    public void setOutput(String output);
-    public String toString();
-    public void clear();
+    MyIList<String> getOutputAsList();
+    void addOutput(String output);
+    void setOutput(String output);
+    String toString();
+    void clear();
 }

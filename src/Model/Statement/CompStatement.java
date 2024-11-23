@@ -4,8 +4,8 @@ import Exceptions.StatementException;
 import Model.States.ProgState;
 
 public class CompStatement implements IStatement {
-    private IStatement first;
-    private IStatement second;
+    private final IStatement first;
+    private final IStatement second;
 
     public CompStatement(IStatement first, IStatement second) {
         this.first = first;

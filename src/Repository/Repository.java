@@ -12,8 +12,8 @@ import java.util.List;
 
 
 public class Repository implements IRepository {
-    private List<ProgState> repository;
-    private String logFilePath;
+    private final List<ProgState> repository;
+    private final String logFilePath;
 
     public Repository(String logFilePath) {
         this.repository = new ArrayList<>();
@@ -48,7 +48,7 @@ public class Repository implements IRepository {
     @Override
     public void logProgramState(ProgState programState) {
         if(logFilePath != null) {
-            PrintWriter logFile = null;
+            PrintWriter logFile;
             try {
                 logFile = new PrintWriter(new BufferedWriter(new FileWriter(logFilePath, true)));
             } catch (IOException e) {

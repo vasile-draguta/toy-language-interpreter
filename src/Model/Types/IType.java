@@ -4,9 +4,9 @@ import Exceptions.ExpressionException;
 import Model.Values.IValue;
 
 public interface IType {
-    public IValue defaultValue();
-    public IType compose(String operation) throws ExpressionException;
-    public boolean equals(IType other);
-    public String toString();
-    public IType deepCopy();
+    IValue defaultValue();
+    IType compose(String operation) throws ExpressionException;
+    boolean equals(IType other);
+    String toString();
+    IType deepCopy();
 }

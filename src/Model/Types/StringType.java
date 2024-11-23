@@ -29,13 +29,10 @@ public class StringType implements IType {
 
     @Override
     public IType compose(String operation) {
-        switch (operation) {
-            case "+":
-                return new StringType();
-            case "==", "!=":
-                return new BooleanType();
-            default:
-                throw new RuntimeException("Invalid operation for string type");
-        }
+        return switch (operation) {
+            case "+" -> new StringType();
+            case "==", "!=" -> new BooleanType();
+            default -> throw new RuntimeException("Invalid operation for string type");
+        };
     }
 }

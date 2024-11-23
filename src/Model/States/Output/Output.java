@@ -9,7 +9,7 @@ public class Output implements IOutput {
 
 
     public Output() {
-        this.output = new MyList<String>();
+        this.output = new MyList<>();
     }
 
     @Override
@@ -28,12 +28,12 @@ public class Output implements IOutput {
 
     @Override
     public void setOutput(String output) {
-        this.output = new MyList<String>();
+        this.output = new MyList<>();
         this.output.add(output);
     }
 
     public void clear() {
-        output = new MyList<String>();
+        output = new MyList<>();
     }
 
     @Override

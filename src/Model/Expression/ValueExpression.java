@@ -5,7 +5,7 @@ import Model.States.ProgState;
 import Model.Values.IValue;
 
 public class ValueExpression implements IExpression {
-    private IValue value;
+    private final IValue value;
 
     public ValueExpression(IValue value) {
         this.value = value;

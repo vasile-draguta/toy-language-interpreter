@@ -5,7 +5,7 @@ import Model.Values.IValue;
 import Model.Values.RefValue;
 
 public class ReadHeapExpression implements IExpression {
-    private IExpression expression;
+    private final IExpression expression;
 
     public ReadHeapExpression(IExpression expression) {
         this.expression = expression;

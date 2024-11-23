@@ -6,7 +6,6 @@ import Model.States.FileTable.IFileTable;
 import Model.States.HeapTable.IHeapTable;
 import Model.States.Output.IOutput;
 import Model.States.SymTable.ISymTable;
-import Model.Utils.MyIDictionary;
 
 public class ProgState {
     private final IExecutionStack executionStack;
@@ -14,7 +13,7 @@ public class ProgState {
     private final IOutput output;
     private final IFileTable fileTable;
     private final IHeapTable heapTable;
-    private IStatement originalProgram;
+    private final IStatement originalProgram;
 
 
     public IExecutionStack getExecutionStack() {

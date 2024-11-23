@@ -6,7 +6,7 @@ import Model.Types.RefType;
 
 public class RefValue implements IValue {
     private final int address;
-    private IType locationType;
+    private final IType locationType;
 
     public RefValue(int address, IType locationType) {
         this.address = address;

@@ -8,7 +8,7 @@ import Model.Values.IValue;
 import Model.Values.StringValue;
 
 public class CloseFileStatement implements IStatement {
-    private IExpression expression;
+    private final IExpression expression;
 
     public CloseFileStatement(IExpression expression) {
         this.expression = expression;

@@ -4,7 +4,7 @@ import Model.Expression.IExpression;
 import Model.States.ProgState;
 
 public class PrintStatement implements IStatement {
-    private IExpression expression;
+    private final IExpression expression;
 
     public PrintStatement(IExpression expression) {
         this.expression = expression;

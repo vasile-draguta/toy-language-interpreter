@@ -8,16 +8,12 @@ import Model.Values.IValue;
 import java.util.Map;
 
 public class HeapTable implements IHeapTable {
-    private MyIDictionary<Integer, IValue> heap;
+    private final MyIDictionary<Integer, IValue> heap;
     Integer nextFreeAddress;
 
     public HeapTable() {
         heap = new MyDictionary<>();
         nextFreeAddress = 1;
-    }
-
-    public void setHeap(Map<Integer, IValue> heap) {
-        this.heap.setDictionary(heap);
     }
 
     @Override

@@ -8,7 +8,7 @@ import Model.Types.StringType;
 import Model.Values.StringValue;
 
 public class OpenFileStatement implements IStatement {
-    private IExpression expression;
+    private final IExpression expression;
 
     public OpenFileStatement(IExpression expression) {
         this.expression = expression;
