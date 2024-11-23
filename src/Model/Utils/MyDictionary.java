@@ -45,4 +45,15 @@ public class MyDictionary<K, V> implements MyIDictionary<K, V> {
     public void clear() {
         this.map.clear();
     }
+
+    @Override
+    public Map<K, V> toMap() {
+        return map;
+    }
+
+    @Override
+    public void setDictionary(Map<K, V> dictionary) {
+        this.map.clear();
+        this.map.putAll(dictionary);
+    }
 }

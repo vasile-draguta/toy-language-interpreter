@@ -5,6 +5,8 @@ import Model.Utils.MyDictionary;
 import Model.Utils.MyIDictionary;
 import Model.Values.IValue;
 
+import java.util.Map;
+
 public class SymTable implements ISymTable {
     private MyIDictionary<String, IValue> symTable;
 
@@ -30,6 +32,11 @@ public class SymTable implements ISymTable {
         if (!symTable.isDefined(varName)) {
             throw new SymbolicTableException("Variable not defined!");
         }
+
+        if(!symTable.LookUp(varName).getType().equals(value.getType())) {
+            throw new SymbolicTableException("Type mismatch!");
+        }
+
         symTable.put(varName, value);
     }
 
@@ -58,5 +65,10 @@ public class SymTable implements ISymTable {
             }
         }
         return result.toString();
+    }
+
+    @Override
+    public Map<String, IValue> toMap() {
+        return symTable.toMap();
     }
 }

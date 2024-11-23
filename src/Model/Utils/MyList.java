@@ -46,4 +46,11 @@ public class MyList<T> implements MyIList<T>, Iterable<T> {
             }
         };
     }
+
+    @Override
+    public int indexOf(T line) {
+        return this.output.indexOf(line);
+    }
+
+
 }

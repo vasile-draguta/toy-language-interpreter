@@ -15,8 +15,14 @@ public class Controller {
         this.displayFlag = displayFlag;
     }
 
-    public void displayOutput() {
-        System.out.println(repository.getCurrentProgram().getOutput());
+    private void displayOutput() {
+        System.out.println(repository.getCurrentProgram().getOutput() + "\n");
+    }
+
+    private void printState(ProgState state) {
+        if (displayFlag) {
+            System.out.println(state);
+        }
     }
 
     public void oneStep(ProgState state) throws ExecutionStackException {
@@ -35,12 +41,12 @@ public class Controller {
         if (state.getExecutionStack().isEmpty())
             state.reset();
         while (!state.getExecutionStack().isEmpty()) {
-            if (displayFlag) {
-                System.out.println(state);
-            }
+            printState(state);
             oneStep(state);
             repository.logProgramState(state);
+            GarbageCollector.garbageCollector(state);
         }
+        printState(state);
         displayOutput();
         repository.clearCompletedPrograms();
     }

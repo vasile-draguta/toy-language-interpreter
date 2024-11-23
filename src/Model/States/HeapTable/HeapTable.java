@@ -5,6 +5,8 @@ import Model.Utils.MyDictionary;
 import Model.Utils.MyIDictionary;
 import Model.Values.IValue;
 
+import java.util.Map;
+
 public class HeapTable implements IHeapTable {
     private MyIDictionary<Integer, IValue> heap;
     Integer nextFreeAddress;
@@ -12,6 +14,10 @@ public class HeapTable implements IHeapTable {
     public HeapTable() {
         heap = new MyDictionary<>();
         nextFreeAddress = 1;
+    }
+
+    public void setHeap(Map<Integer, IValue> heap) {
+        this.heap.setDictionary(heap);
     }
 
     @Override
@@ -52,8 +58,21 @@ public class HeapTable implements IHeapTable {
     public String toString() {
         StringBuilder result = new StringBuilder();
         for (Integer key : heap.getAllKeys()) {
-            result.append(key.toString()).append(" -> ").append(heap.LookUp(key).toString()).append("\n");
+            result.append(key.toString()).append(" -> ").append(heap.LookUp(key).toString());
+            if (heap.getAllKeys().indexOf(key) != heap.getAllKeys().size() - 1) {
+                result.append(", ");
+            }
         }
         return result.toString();
+    }
+
+    @Override
+    public Map<Integer, IValue> toMap() {
+        return heap.toMap();
+    }
+
+    @Override
+    public void clear() {
+        heap.clear();
     }
 }

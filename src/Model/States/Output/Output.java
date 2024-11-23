@@ -22,6 +22,10 @@ public class Output implements IOutput {
         this.output.add(output);
     }
 
+    public int getSize() {
+        return output.size();
+    }
+
     @Override
     public void setOutput(String output) {
         this.output = new MyList<String>();
@@ -36,7 +40,10 @@ public class Output implements IOutput {
     public String toString() {
         StringBuilder result = new StringBuilder();
         for (String line : output) {
-            result.append(line).append("\n");
+            result.append(line);
+            if(output.indexOf(line) != output.size() - 1) {
+                result.append(", ");
+            }
         }
         return result.toString();
     }
