@@ -57,7 +57,7 @@ public class Hardcoded {
                                                                     new CompStatement(new PrintStatement(new VariableExpression("varc")),
                                                                             new CloseFileStatement(new VariableExpression("varf")))))))))),
 
-            //String code5 = "int a; int b; a=2; b=5; If a < b Then Print(a is less than b) Else Print(a is not less than b);";
+            //String code5 = "int a; int b; a=2; b=5; If a < b Then Print(a is less than b) Else Print(a is not less than b);"; 
 
             new CompStatement(new VarDeclStatement("a", new IntegerType()), new CompStatement(new VarDeclStatement("b", new IntegerType()),
                     new CompStatement(new AssignStatement("a", new ValueExpression(new IntegerValue(2))),

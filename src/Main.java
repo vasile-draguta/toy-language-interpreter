@@ -42,7 +42,6 @@ public class Main {
             menu.addCommand(command);
             key++;
         }
-//        menu.addCommand(new DisplayFlagCommand("d", "Toggle display flag", controller));
 
         menu.show();
     }
