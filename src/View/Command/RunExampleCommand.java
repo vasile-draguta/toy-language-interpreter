@@ -19,6 +19,7 @@ public class RunExampleCommand extends Command {
         try {
             controller.addProgram(state);
             controller.allSteps();
+            state.reset();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }

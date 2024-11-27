@@ -69,6 +69,7 @@ public class HeapTable implements IHeapTable {
 
     @Override
     public void clear() {
+        nextFreeAddress = 1;
         heap.clear();
     }
 }
