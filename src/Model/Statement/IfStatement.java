@@ -40,6 +40,6 @@ public class IfStatement implements IStatement {
         else {
             state.getExecutionStack().push(elseStatement);
         }
-        return state;
+        return null;
     }
 }

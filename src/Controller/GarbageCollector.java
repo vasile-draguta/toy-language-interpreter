@@ -1,6 +1,7 @@
 package Controller;
 
 import Exceptions.GarbageCollectorException;
+import Exceptions.HeapException;
 import Model.States.HeapTable.IHeapTable;
 import Model.States.ProgState;
 import Model.Values.IValue;
@@ -38,20 +39,21 @@ public class GarbageCollector {
                 }).collect(Collectors.toList());
     }
 
-    public static void garbageCollector(ProgState state) {
-        List<Integer> activeAddresses = GarbageCollector.getAddressesFromSymTable(state);
+    public static void garbageCollector(List<ProgState> states) {
+        if (states.isEmpty()) {
+            return;
+        }
 
-        IHeapTable heapTable = state.getHeapTable();
-        List<Integer> addresses = heapTable.toMap().keySet().stream().filter(e -> !activeAddresses.contains(e)).toList();
+        List<Integer> reachableAddresses = states.stream().flatMap(state -> getAddressesFromSymTable(state).stream()).toList();
+        IHeapTable heapTable = states.getFirst().getHeapTable();
+        List<Integer> addressesList = heapTable.toMap().keySet().stream().filter(e -> !reachableAddresses.contains(e)).toList();
 
-        addresses.forEach(e -> {
+        addressesList.forEach(e -> {
             try {
                 heapTable.deallocate(e);
-            } catch (GarbageCollectorException garbageCollectorException) {
+            } catch (HeapException ex) {
                 throw new GarbageCollectorException("Garbage Collector failed to deallocate address " + e);
             }
         });
-
-
     }
 }

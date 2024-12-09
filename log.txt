@@ -1,10 +1,4 @@
-Execution Stack: Integer v; v = 2; print(v) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
+ID: 1
 Execution Stack: Integer v v = 2; print(v) 
 Symbol Table: 
 Output: 
@@ -12,41 +6,7 @@ File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: v = 2; print(v) 
-Symbol Table: v -> 0
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = 2 print(v) 
-Symbol Table: v -> 0
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v) 
-Symbol Table: v -> 2
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: 
-Symbol Table: v -> 2
-Output: 2
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Integer v; v = 2; print(v) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
+ID: 1
 Execution Stack: Integer v v = 2; print(v) 
 Symbol Table: 
 Output: 
@@ -54,13 +14,7 @@ File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: v = 2; print(v) 
-Symbol Table: v -> 0
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
+ID: 1
 Execution Stack: v = 2 print(v) 
 Symbol Table: v -> 0
 Output: 
@@ -68,13 +22,463 @@ File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: print(v) 
-Symbol Table: v -> 2
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
 Execution Stack: 
 Symbol Table: v -> 2
 Output: 2
@@ -82,1119 +486,975 @@ File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v) new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: new(v, 30) print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
--------------------
-
+ID: 1
 Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
-Output: 20
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v) print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(HeapReading(v)) print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 20
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 20, 25
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); print(v); print(a) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v); print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v) print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: print(v); print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(v) print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer)
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer), (2, Ref(Integer))
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); print(v); print(a) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v); print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v) print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: print(v); print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(v) print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer)
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer), (2, Ref(Integer))
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer), (2, Ref(Integer))
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (3, Integer)
-Output: 
-File Table: {}
-Heap Table: 3 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); print(v); print(a) 
-Symbol Table: v -> (3, Integer)
-Output: 
-File Table: {}
-Heap Table: 3 -> 20
--------------------
-
-Execution Stack: new(a, v); print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (3, Integer)
-Output: 
-File Table: {}
-Heap Table: 3 -> 20
--------------------
-
-Execution Stack: new(a, v) print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (3, Integer)
-Output: 
-File Table: {}
-Heap Table: 3 -> 20
--------------------
-
-Execution Stack: print(v); print(a) 
-Symbol Table: a -> (4, Ref(Integer)), v -> (3, Integer)
-Output: 
-File Table: {}
-Heap Table: 3 -> 20, 4 -> (3, Integer)
--------------------
-
-Execution Stack: print(v) print(a) 
-Symbol Table: a -> (4, Ref(Integer)), v -> (3, Integer)
-Output: 
-File Table: {}
-Heap Table: 3 -> 20, 4 -> (3, Integer)
--------------------
-
-Execution Stack: print(a) 
-Symbol Table: a -> (4, Ref(Integer)), v -> (3, Integer)
-Output: (3, Integer)
-File Table: {}
-Heap Table: 3 -> 20, 4 -> (3, Integer)
--------------------
-
-Execution Stack: 
-Symbol Table: a -> (4, Ref(Integer)), v -> (3, Integer)
-Output: (3, Integer), (4, Ref(Integer))
-File Table: {}
-Heap Table: 3 -> 20, 4 -> (3, Integer)
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); print(v); print(a) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(a, v); print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(a, v) print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v); print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(v) print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer)
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer), (2, Ref(Integer))
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(a, v) print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(HeapReading(v)) print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(a, v); print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(a, v) print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(HeapReading(v)); print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(HeapReading(v)) print(HeapReading(HeapReading(a)) + 5) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); print(HeapReading(v)); WriteHeap(v, 30); print(HeapReading(v) + 5) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); print(HeapReading(v)); WriteHeap(v, 30); print(HeapReading(v) + 5) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); print(HeapReading(v)); WriteHeap(v, 30); print(HeapReading(v) + 5) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) print(HeapReading(v)); WriteHeap(v, 30); print(HeapReading(v) + 5) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(HeapReading(v)); WriteHeap(v, 30); print(HeapReading(v) + 5) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: print(HeapReading(v)) WriteHeap(v, 30); print(HeapReading(v) + 5) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); print(v); print(a) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(a, v); print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(a, v) print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v); print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(v) print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer)
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer), (2, Ref(Integer))
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); print(v); print(a) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); print(v); print(a) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v); print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v) print(v); print(a) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: print(v); print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(v) print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(a) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer)
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: (1, Integer), (2, Ref(Integer))
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v) new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: new(v, 30) print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
--------------------
-
-Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
-Output: 20
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
--------------------
-
-Execution Stack: Integer v; v = 4; while(print(v); v = v - 1) { v > 0 }; print(v) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Integer v v = 4; while(print(v); v = v - 1) { v > 0 }; print(v) 
-Symbol Table: 
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = 4; while(print(v); v = v - 1) { v > 0 }; print(v) 
-Symbol Table: v -> 0
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = 4 while(print(v); v = v - 1) { v > 0 }; print(v) 
-Symbol Table: v -> 0
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(print(v); v = v - 1) { v > 0 }; print(v) 
-Symbol Table: v -> 4
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 4
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v); v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 4
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v) v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 4
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 4
-Output: 4
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 3
-Output: 4
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v); v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 3
-Output: 4
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v) v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 3
-Output: 4
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 3
-Output: 4, 3
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(print(v); v = v - 1) { v > 0 } print(v) 
 Symbol Table: v -> 2
-Output: 4, 3
+Output: 2
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: print(v); v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 2
-Output: 4, 3
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v) v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 2
-Output: 4, 3
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 2
-Output: 4, 3, 2
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 1
-Output: 4, 3, 2
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v); v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 1
-Output: 4, 3, 2
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v) v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 1
-Output: 4, 3, 2
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = v - 1 while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 1
-Output: 4, 3, 2, 1
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(print(v); v = v - 1) { v > 0 } print(v) 
-Symbol Table: v -> 0
-Output: 4, 3, 2, 1
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v) 
-Symbol Table: v -> 0
-Output: 4, 3, 2, 1
-File Table: {}
-Heap Table: 
--------------------
-
+ID: 1
 Execution Stack: 
-Symbol Table: v -> 0
-Output: 4, 3, 2, 1, 0
+Symbol Table: v -> 2
+Output: 2
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: Integer v; v = 4; while(v > 0) { print(v); v = v - 1 }; print(v) 
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
 Symbol Table: 
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(v) print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(v) print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(v) print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(v) print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 10
 Execution Stack: Integer v v = 4; while(v > 0) { print(v); v = v - 1 }; print(v) 
 Symbol Table: 
 Output: 
@@ -1202,13 +1462,15 @@ File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: v = 4; while(v > 0) { print(v); v = v - 1 }; print(v) 
-Symbol Table: v -> 0
+ID: 10
+Execution Stack: Integer v v = 4; while(v > 0) { print(v); v = v - 1 }; print(v) 
+Symbol Table: 
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
+ID: 10
 Execution Stack: v = 4 while(v > 0) { print(v); v = v - 1 }; print(v) 
 Symbol Table: v -> 0
 Output: 
@@ -1216,479 +1478,2883 @@ File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: while(v > 0) { print(v); v = v - 1 }; print(v) 
-Symbol Table: v -> 4
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 4
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v); v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 4
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 4
-Output: 
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 4
-Output: 4
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 3
-Output: 4
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v); v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 3
-Output: 4
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 3
-Output: 4
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 3
-Output: 4, 3
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 2
-Output: 4, 3
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v); v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 2
-Output: 4, 3
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 2
-Output: 4, 3
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 2
-Output: 4, 3, 2
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 1
-Output: 4, 3, 2
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v); v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 1
-Output: 4, 3, 2
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 1
-Output: 4, 3, 2
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: v = v - 1 while(v > 0) { print(v); v = v - 1 } print(v) 
-Symbol Table: v -> 1
-Output: 4, 3, 2, 1
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: while(v > 0) { print(v); v = v - 1 } print(v) 
+ID: 10
+Execution Stack: v = 4 while(v > 0) { print(v); v = v - 1 }; print(v) 
 Symbol Table: v -> 0
-Output: 4, 3, 2, 1
+Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
+ID: 10
+Execution Stack: v = 4 while(v > 0) { print(v); v = v - 1 }; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: v = 4 while(v > 0) { print(v); v = v - 1 }; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v); v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 4
+Output: 4
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v); v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 4
+Output: 4
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v); v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 4
+Output: 4
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v); v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 4
+Output: 4
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v); v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 4
+Output: 4
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 3
+Output: 4, 4, 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 3
+Output: 4, 4, 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 3
+Output: 4, 4, 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 3
+Output: 4, 4, 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 3
+Output: 4, 4, 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 3
+Output: 4, 4, 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: print(v) v = v - 1 while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 3
+Output: 4, 4, 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 1
+Output: 4, 4, 3, 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 1
+Output: 4, 4, 3, 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 1
+Output: 4, 4, 3, 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 1
+Output: 4, 4, 3, 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 1
+Output: 4, 4, 3, 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 1
+Output: 4, 4, 3, 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 1
+Output: 4, 4, 3, 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: while(v > 0) { print(v); v = v - 1 } 
+Symbol Table: v -> 1
+Output: 4, 4, 3, 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: 
+Symbol Table: v -> 0
+Output: 4, 4, 3, 2, 1
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: 
+Symbol Table: v -> 0
+Output: 4, 4, 3, 2, 1
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: 
+Symbol Table: v -> 0
+Output: 4, 4, 3, 2, 1
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: 
+Symbol Table: v -> 0
+Output: 4, 4, 3, 2, 1
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: 
+Symbol Table: v -> 0
+Output: 4, 4, 3, 2, 1
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: 
+Symbol Table: v -> 0
+Output: 4, 4, 3, 2, 1
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: 
+Symbol Table: v -> 0
+Output: 4, 4, 3, 2, 1
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: 
+Symbol Table: v -> 0
+Output: 4, 4, 3, 2, 1
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 10
+Execution Stack: 
+Symbol Table: v -> 0
+Output: 4, 4, 3, 2, 1
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 12
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 13
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 13
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 13
+Execution Stack: 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 13
+Execution Stack: 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 13
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 13
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 13
+Execution Stack: 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 13
+Execution Stack: 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 22
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 22, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 14
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 15
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 16
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 16
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 16
+Execution Stack: 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 16
+Execution Stack: 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 12
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 13
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 13
+Execution Stack: NOP 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 13
+Execution Stack: 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 13
+Execution Stack: 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
 Execution Stack: print(v) 
+Symbol Table: v -> 2
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
 Symbol Table: v -> 0
-Output: 4, 3, 2, 1
+Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: 
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
 Symbol Table: v -> 0
-Output: 4, 3, 2, 1, 0
-File Table: {}
-Heap Table: 
--------------------
-
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: 
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: 
+ID: 11
+Execution Stack: v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 0
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
+ID: 11
+Execution Stack: v = 10 new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 0
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
+ID: 11
+Execution Stack: new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (1, Integer)
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20
+Heap Table: 
 -------------------
 
-Execution Stack: Ref(Ref(Integer)) a new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (1, Integer)
+ID: 11
+Execution Stack: fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20
+Heap Table: 1 -> 22
 -------------------
 
-Execution Stack: new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
+ID: 11
+Execution Stack: fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))) print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20
+Heap Table: 1 -> 22
 -------------------
 
-Execution Stack: new(a, v) new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
+ID: 11
+Execution Stack: print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20
+Heap Table: 1 -> 22
 -------------------
 
-Execution Stack: new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
+ID: 12
+Execution Stack: WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
+Heap Table: 1 -> 22
 -------------------
 
-Execution Stack: new(v, 30) print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
+ID: 11
+Execution Stack: print(v) print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
+Heap Table: 1 -> 22
 -------------------
 
-Execution Stack: print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
+Heap Table: 1 -> 22
 -------------------
 
+ID: 11
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 11
 Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
-Output: 20
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 30
 File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
+Heap Table: 1 -> 30
 -------------------
 
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(v) print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
 Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
-Output: 20
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30, 32, 30, 
 File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
+Heap Table: 1 -> 30
 -------------------
 
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
 Symbol Table: 
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
+ID: 1
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (4, Integer)
+ID: 1
+Execution Stack: print(v) 
+Symbol Table: v -> 2
 Output: 
 File Table: {}
-Heap Table: 4 -> 20
+Heap Table: 
 -------------------
 
-Execution Stack: Ref(Ref(Integer)) a new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (4, Integer)
-Output: 
-File Table: {}
-Heap Table: 4 -> 20
--------------------
-
-Execution Stack: new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (4, Integer)
-Output: 
-File Table: {}
-Heap Table: 4 -> 20
--------------------
-
-Execution Stack: new(a, v) new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (4, Integer)
-Output: 
-File Table: {}
-Heap Table: 4 -> 20
--------------------
-
-Execution Stack: new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (5, Ref(Integer)), v -> (4, Integer)
-Output: 
-File Table: {}
-Heap Table: 4 -> 20, 5 -> (4, Integer)
--------------------
-
-Execution Stack: new(v, 30) print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (5, Ref(Integer)), v -> (4, Integer)
-Output: 
-File Table: {}
-Heap Table: 4 -> 20, 5 -> (4, Integer)
--------------------
-
-Execution Stack: print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (5, Ref(Integer)), v -> (6, Integer)
-Output: 
-File Table: {}
-Heap Table: 4 -> 20, 5 -> (4, Integer), 6 -> 30
--------------------
-
+ID: 1
 Execution Stack: 
-Symbol Table: a -> (5, Ref(Integer)), v -> (6, Integer)
-Output: 20
+Symbol Table: v -> 2
+Output: 2
 File Table: {}
-Heap Table: 4 -> 20, 5 -> (4, Integer), 6 -> 30
+Heap Table: 
 -------------------
 
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
 Symbol Table: 
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: 
+ID: 11
+Execution Stack: Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
+ID: 11
+Execution Stack: v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 0
 Output: 
 File Table: {}
 Heap Table: 
 -------------------
 
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (1, Integer)
+ID: 11
+Execution Stack: v = 10 new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 0
 Output: 
 File Table: {}
-Heap Table: 1 -> 20
+Heap Table: 
 -------------------
 
-Execution Stack: Ref(Ref(Integer)) a new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (1, Integer)
+ID: 11
+Execution Stack: new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20
+Heap Table: 
 -------------------
 
-Execution Stack: new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20
+Heap Table: 
 -------------------
 
-Execution Stack: new(a, v) new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
+ID: 11
+Execution Stack: fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20
+Heap Table: 1 -> 22
 -------------------
 
-Execution Stack: new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
+ID: 11
+Execution Stack: fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))) print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
+Heap Table: 1 -> 22
 -------------------
 
-Execution Stack: new(v, 30) print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
+ID: 11
+Execution Stack: print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
+Heap Table: 1 -> 22
 -------------------
 
-Execution Stack: print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
+ID: 12
+Execution Stack: WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
 Output: 
 File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
+Heap Table: 1 -> 22
 -------------------
 
+ID: 11
+Execution Stack: print(v) print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 11
 Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
-Output: 20
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 30
 File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
+Heap Table: 1 -> 30
 -------------------
 
-Execution Stack: Ref(Integer) v; new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: 
-Output: 
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 30
 File Table: {}
-Heap Table: 
+Heap Table: 1 -> 30
 -------------------
 
-Execution Stack: Ref(Integer) v new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: 
-Output: 
+ID: 12
+Execution Stack: print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30
 File Table: {}
-Heap Table: 
+Heap Table: 1 -> 30
 -------------------
 
-Execution Stack: new(v, 20); Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
-Output: 
+ID: 12
+Execution Stack: print(v) print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30
 File Table: {}
-Heap Table: 
+Heap Table: 1 -> 30
 -------------------
 
-Execution Stack: new(v, 20) Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (0, Integer)
-Output: 
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30, 32
 File Table: {}
-Heap Table: 
+Heap Table: 1 -> 30
 -------------------
 
-Execution Stack: Ref(Ref(Integer)) a; new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: Ref(Ref(Integer)) a new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v); new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(a, v) new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (0, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20
--------------------
-
-Execution Stack: new(v, 30); print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: new(v, 30) print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (1, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer)
--------------------
-
-Execution Stack: print(HeapReading(HeapReading(a))) 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
-Output: 
-File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
--------------------
-
+ID: 12
 Execution Stack: 
-Symbol Table: a -> (2, Ref(Integer)), v -> (3, Integer)
-Output: 20
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30, 32, 30, 
 File Table: {}
-Heap Table: 1 -> 20, 2 -> (1, Integer), 3 -> 30
+Heap Table: 1 -> 30
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: print(v) 
+Symbol Table: v -> 2
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Integer v Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a; v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: Ref(Integer) a v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: v = 10; new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: v = 10 new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22); fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: new(a, 22) fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (0, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 11
+Execution Stack: fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))); print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: fork(WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a))) print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30); v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: print(v) print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 12
+Execution Stack: WriteHeap(a, 30) v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 
+File Table: {}
+Heap Table: 1 -> 22
+-------------------
+
+ID: 11
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32; print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 11
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: v = 32 print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 10
+Output: 10, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(v); print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(v) print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: print(HeapReading(a)) 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30, 32
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 12
+Execution Stack: 
+Symbol Table: a -> (1, Integer), v -> 32
+Output: 10, 30, 32, 30, 
+File Table: {}
+Heap Table: 1 -> 30
+-------------------
+
+ID: 1
+Execution Stack: Integer v v = 2; print(v) 
+Symbol Table: 
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2; print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: v = 2 print(v) 
+Symbol Table: v -> 0
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: print(v) 
+Symbol Table: v -> 2
+Output: 
+File Table: {}
+Heap Table: 
+-------------------
+
+ID: 1
+Execution Stack: 
+Symbol Table: v -> 2
+Output: 2
+File Table: {}
+Heap Table: 
 -------------------
 

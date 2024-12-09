@@ -5,7 +5,7 @@ import Model.States.ProgState;
 public class NopStatement implements IStatement {
     @Override
     public ProgState execute(ProgState state) {
-        return state;
+        return null;
     }
 
     @Override

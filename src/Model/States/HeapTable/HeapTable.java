@@ -19,8 +19,7 @@ public class HeapTable implements IHeapTable {
     @Override
     public int allocate(IValue value) {
         heap.put(nextFreeAddress, value);
-        nextFreeAddress++;
-        return nextFreeAddress - 1;
+        return nextFreeAddress++;
     }
 
     @Override
@@ -43,10 +42,6 @@ public class HeapTable implements IHeapTable {
 
     @Override
     public void write(int address, IValue value) {
-        if (heap.isDefined(address)) {
-            throw new HeapException("Address already exists in heap table");
-        }
-
         heap.put(address, value);
     }
 

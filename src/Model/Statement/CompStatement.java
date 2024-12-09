@@ -16,7 +16,7 @@ public class CompStatement implements IStatement {
     public ProgState execute(ProgState state) throws StatementException {
         state.getExecutionStack().push(second);
         state.getExecutionStack().push(first);
-        return state;
+        return null;
     }
 
     @Override

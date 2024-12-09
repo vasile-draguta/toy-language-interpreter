@@ -117,7 +117,20 @@ public class Hardcoded {
                                                     new AssignStatement("v", new ArithmeticExpression("-",
                                                             new VariableExpression("v"),
                                                             new ValueExpression(new IntegerValue(1)))))),
-                                            new PrintStatement(new VariableExpression("v"))))))
+                                            new PrintStatement(new VariableExpression("v")))))),
+
+            new Pair<>("int v; Ref int a; v=10; new(a,22); fork(wH(a,30);v=32;print(v);print(rH(a))); print(v);print(rH(a))",
+                    new CompStatement(new VarDeclStatement("v",new IntegerType()),
+                            new CompStatement(new VarDeclStatement("a",new RefType(new IntegerType())),
+                                    new CompStatement(new AssignStatement("v",new ValueExpression(new IntegerValue(10))),
+                                            new CompStatement(new NewStatement("a", new ValueExpression(new IntegerValue(22))),
+                                                    new CompStatement(new ForkStatement(
+                                                            new CompStatement(new WriteHeapStatement("a", new ValueExpression(new IntegerValue(30))),
+                                                                    new CompStatement(new AssignStatement("v",new ValueExpression(new IntegerValue(32))),
+                                                                            new CompStatement(new PrintStatement(new VariableExpression("v")),
+                                                                                    new PrintStatement(new ReadHeapExpression(new VariableExpression("a"))))))),
+                                                            new CompStatement(new PrintStatement(new VariableExpression("v")), new PrintStatement(new ReadHeapExpression(new VariableExpression("a"))))))))))
+                    
     ));
 
     public static ArrayList<Pair<String, IStatement>> getHardcodedPrograms() {

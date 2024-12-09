@@ -15,7 +15,7 @@ public class VarDeclStatement implements IStatement {
 
     public ProgState execute(ProgState state) throws StatementException {
         state.getSymTable().declareVar(id, type.defaultValue());
-        return state;
+        return null;
     }
 
     @Override

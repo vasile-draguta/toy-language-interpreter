@@ -4,6 +4,7 @@ package View;
 import View.Command.Command;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class TextMenu {
     private final Map<String, Command> commands;
 
     public TextMenu() {
-        commands = new HashMap<>();
+        commands = new LinkedHashMap<>();
     }
 
     public void addCommand(Command c) {

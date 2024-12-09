@@ -1,54 +1,80 @@
 package Controller;
 
-import Exceptions.ExecutionStackException;
-import Model.Statement.IStatement;
-import Model.States.ExecutionStack.IExecutionStack;
+import Exceptions.AppException;
 import Model.States.ProgState;
 import Repository.IRepository;
+
+import java.util.List;
+import java.util.Objects;
+import java.util.concurrent.*;
+import java.util.stream.Collectors;
 
 public class Controller {
     private final IRepository repository;
     private Boolean displayFlag;
+    private ExecutorService executor;
 
     public Controller(IRepository repository, Boolean displayFlag) {
         this.repository = repository;
+        this.executor = Executors.newSingleThreadExecutor();
         this.displayFlag = displayFlag;
     }
 
-    private void displayOutput() {
-        System.out.println(repository.getCurrentProgram().getOutput() + "\n");
-    }
-
-    private void printState(ProgState state) {
+    private void printState() {
         if (displayFlag) {
-            System.out.println(state);
+            List<ProgState> programList = repository.getProgramList();
+            programList.forEach(System.out::println);
         }
     }
 
-    public void oneStep(ProgState state) throws ExecutionStackException {
-        IExecutionStack stack = state.getExecutionStack();
-        if (stack.isEmpty()) {
-            throw new ExecutionStackException("Program state stack is empty");
-        }
-
-        IStatement currentStatement = stack.pop();
-        currentStatement.execute(state);
+    private void removeCompletedPrograms() {
+        repository.setProgramList(repository.getProgramList().stream().filter(ProgState::isNotCompleted).collect(Collectors.toList()));
     }
 
-    public void allSteps() {
-        ProgState state = repository.getCurrentProgram();
-        repository.logProgramState(state);
-        if (state.getExecutionStack().isEmpty())
-            state.reset();
-        while (!state.getExecutionStack().isEmpty()) {
-            printState(state);
-            oneStep(state);
-            repository.logProgramState(state);
-            GarbageCollector.garbageCollector(state);
+
+    public void executeOneStep() throws AppException{
+        this.removeCompletedPrograms();
+        List<Callable<ProgState>> stepList = repository.getProgramList().stream()
+                .map(program -> (Callable<ProgState>) (program::oneStep))
+                .toList();
+
+        List<ProgState> newPrograms;
+        try {
+            newPrograms = executor.invokeAll(stepList).stream()
+                    .map(future -> {
+                        try {
+                            return future.get();
+                        } catch (InterruptedException | ExecutionException e) {
+                            throw new RuntimeException(e);
+                        }
+
+                    })
+                    .filter(Objects::nonNull)
+                    .toList();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         }
-        printState(state);
-        displayOutput();
-        repository.clearCompletedPrograms();
+        newPrograms.forEach(repository::addProgramState);
+
+        GarbageCollector.garbageCollector(repository.getProgramList());
+
+        if(displayFlag){
+            printState();
+        }
+        repository.getProgramList().forEach(repository::logProgramState);
+    }
+
+
+    public void allSteps() throws AppException{
+        executor = Executors.newFixedThreadPool(2);
+        while(true){
+            this.removeCompletedPrograms();
+            if(this.repository.getProgramList().isEmpty()){
+                break;
+            }
+            this.executeOneStep();
+        }
+        executor.shutdown();
     }
 
     public void setDisplayFlag(Boolean displayFlag) {

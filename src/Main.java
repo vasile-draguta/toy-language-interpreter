@@ -19,15 +19,13 @@ import View.Command.Command;
 import View.Command.ExitCommand;
 import View.Command.RunExampleCommand;
 import View.TextMenu;
-
-
 import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
 
         IRepository repository = new Repository("log.txt");
-        Controller controller = new Controller(repository, true);
+        Controller controller = new Controller(repository,true);
         TextMenu menu = new TextMenu();
 
         ArrayList<Pair<String,IStatement>> hardcodedPrograms = Hardcoded.getHardcodedPrograms();

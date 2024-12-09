@@ -12,7 +12,7 @@ import java.util.List;
 
 
 public class Repository implements IRepository {
-    private final List<ProgState> repository;
+    private List<ProgState> repository;
     private final String logFilePath;
 
     public Repository(String logFilePath) {
@@ -26,23 +26,13 @@ public class Repository implements IRepository {
     }
 
     @Override
-    public ProgState getCurrentProgram() throws RepositoryException {
-        if (repository.isEmpty())
-            throw new RepositoryException("Repository is empty");
-        return repository.getLast();
+    public List<ProgState> getProgramList() throws RepositoryException {
+        return repository;
     }
 
     @Override
-    public void clearCompletedPrograms() {
-        if(repository.isEmpty()) {
-            throw new RepositoryException("No programs to be executed!");
-        }
-
-        for(int i = 0; i < repository.size(); i++) {
-            if(repository.get(i).getExecutionStack().isEmpty()) {
-                repository.remove(repository.get(i));
-            }
-        }
+    public void setProgramList(List<ProgState> programList) {
+        repository = programList;
     }
 
     @Override
@@ -58,6 +48,11 @@ public class Repository implements IRepository {
             logFile.println(programState);
             logFile.close();
         }
+    }
+
+    @Override
+    public void clear() {
+        repository.clear();
     }
 
 }
