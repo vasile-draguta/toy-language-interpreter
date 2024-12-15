@@ -1,6 +1,8 @@
 package Controller;
 
 import Exceptions.AppException;
+import Model.States.Output.IOutput;
+import Model.States.Output.Output;
 import Model.States.ProgState;
 import Repository.IRepository;
 
@@ -67,13 +69,16 @@ public class Controller {
 
     public void allSteps() throws AppException{
         executor = Executors.newFixedThreadPool(2);
+        IOutput output = new Output();
         while(true){
+            output = repository.getProgramList().get(0).getOutput();
             this.removeCompletedPrograms();
             if(this.repository.getProgramList().isEmpty()){
                 break;
             }
             this.executeOneStep();
         }
+        System.out.println(output);
         executor.shutdown();
     }
 
@@ -89,3 +94,4 @@ public class Controller {
         repository.addProgramState(program);
     }
 }
+

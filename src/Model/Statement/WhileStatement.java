@@ -2,6 +2,9 @@ package Model.Statement;
 
 import Model.Expression.IExpression;
 import Model.States.ProgState;
+import Model.Types.BooleanType;
+import Model.Types.IType;
+import Model.Utils.MyIDictionary;
 import Model.Values.BooleanValue;
 import Model.Values.IValue;
 import Model.Values.IntegerValue;
@@ -36,5 +39,14 @@ public class WhileStatement implements IStatement {
             state.getExecutionStack().push(statement);
         }
         return null;
+    }
+
+    @Override
+    public MyIDictionary<String, IType> typeCheck(MyIDictionary<String, IType> typeEnv) {
+        IType typeExpression = expression.typeCheck(typeEnv);
+        if(typeExpression.equals(new BooleanType()))
+            return statement.typeCheck(typeEnv);
+        else
+            throw new RuntimeException("The condition of WHILE has not the type boolean");
     }
 }

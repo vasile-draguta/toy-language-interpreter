@@ -1,8 +1,12 @@
 package Model.Statement;
 
 import Exceptions.StatementException;
+import Exceptions.TypeException;
 import Model.Expression.IExpression;
 import Model.States.ProgState;
+import Model.Types.IType;
+import Model.Types.RefType;
+import Model.Utils.MyIDictionary;
 import Model.Values.IValue;
 import Model.Values.RefValue;
 
@@ -36,5 +40,16 @@ public class WriteHeapStatement implements IStatement {
     @Override
     public String toString() {
         return "WriteHeap(" + varName + ", " + expression.toString() + ")";
+    }
+
+    @Override
+    public MyIDictionary<String, IType> typeCheck(MyIDictionary<String, IType> typeEnv) throws TypeException {
+        IType addressType = typeEnv.LookUp(varName);
+        IType expressionType = expression.typeCheck(typeEnv);
+
+        if(!(addressType instanceof RefType)) {
+            throw new TypeException("Write heap expression does not evaluate to a RefType");
+        }
+        return typeEnv;
     }
 }

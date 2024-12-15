@@ -1,7 +1,10 @@
 package Model.Statement;
 
 import Exceptions.StatementException;
+import Exceptions.TypeException;
 import Model.States.ProgState;
+import Model.Types.IType;
+import Model.Utils.MyIDictionary;
 
 public class CompStatement implements IStatement {
     private final IStatement first;
@@ -27,5 +30,10 @@ public class CompStatement implements IStatement {
     @Override
     public String toString() {
         return first.toString() + "; " + second.toString();
+    }
+
+    @Override
+    public MyIDictionary<String, IType> typeCheck(MyIDictionary<String, IType> typeEnv) throws TypeException {
+        return second.typeCheck(first.typeCheck(typeEnv));
     }
 }

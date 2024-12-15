@@ -1,9 +1,13 @@
 package Model.Statement.FileStatements;
 
+import Exceptions.TypeException;
 import Model.Expression.IExpression;
 import Model.Statement.IStatement;
 import Model.States.ProgState;
+import Model.Types.BooleanType;
+import Model.Types.IType;
 import Model.Types.StringType;
+import Model.Utils.MyIDictionary;
 import Model.Values.IValue;
 import Model.Values.IntegerValue;
 import Model.Values.StringValue;
@@ -39,5 +43,13 @@ public class ReadFileStatement implements IStatement {
     @Override
     public IStatement deepCopy() {
         return new ReadFileStatement(expression.deepCopy(), name);
+    }
+
+    @Override
+    public MyIDictionary<String, IType> typeCheck(MyIDictionary<String, IType> typeEnv) throws TypeException {
+        if(!(new StringType().equals(expression.typeCheck(typeEnv)))) {
+            throw new TypeException("File name must be a string");
+        }
+        return typeEnv;
     }
 }

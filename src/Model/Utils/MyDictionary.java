@@ -52,8 +52,11 @@ public class MyDictionary<K, V> implements MyIDictionary<K, V> {
     }
 
     @Override
-    public void setDictionary(Map<K, V> dictionary) {
-        this.map.clear();
-        this.map.putAll(dictionary);
+    public MyIDictionary<K, V> deepCopy() {
+        MyDictionary<K, V> copy = new MyDictionary<K, V>();
+        for (K key : this.map.keySet()) {
+            copy.put(key, this.map.get(key));
+        }
+        return copy;
     }
 }

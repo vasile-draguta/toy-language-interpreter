@@ -38,13 +38,6 @@ public class Output implements IOutput {
 
     @Override
     public String toString() {
-        StringBuilder result = new StringBuilder();
-        for (String line : output) {
-            result.append(line);
-            if(output.indexOf(line) != output.size() - 1) {
-                result.append(", ");
-            }
-        }
-        return result.toString();
+        return String.join(", ", output);
     }
 }

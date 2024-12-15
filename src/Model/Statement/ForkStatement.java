@@ -1,8 +1,12 @@
 package Model.Statement;
 
 import Exceptions.StatementException;
+import Exceptions.TypeException;
 import Model.States.ExecutionStack.ExecutionStack;
 import Model.States.ProgState;
+import Model.Types.BooleanType;
+import Model.Types.IType;
+import Model.Utils.MyIDictionary;
 
 public class ForkStatement implements IStatement{
     IStatement innerStatement;
@@ -29,5 +33,10 @@ public class ForkStatement implements IStatement{
     @Override
     public IStatement deepCopy() {
         return new ForkStatement(innerStatement.deepCopy());
+    }
+
+    @Override
+    public MyIDictionary<String, IType> typeCheck(MyIDictionary<String, IType> typeEnv) throws TypeException {
+        return innerStatement.typeCheck(typeEnv);
     }
 }

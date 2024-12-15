@@ -1,9 +1,13 @@
 package Model.Statement.FileStatements;
 
+import Exceptions.TypeException;
 import Model.Expression.IExpression;
 import Model.Statement.IStatement;
 import Model.States.ProgState;
+import Model.Types.BooleanType;
+import Model.Types.IType;
 import Model.Types.StringType;
+import Model.Utils.MyIDictionary;
 import Model.Values.IValue;
 import Model.Values.StringValue;
 
@@ -35,5 +39,14 @@ public class CloseFileStatement implements IStatement {
     @Override
     public IStatement deepCopy() {
         return new CloseFileStatement(expression.deepCopy());
+    }
+
+    @Override
+    public MyIDictionary<String, IType> typeCheck(MyIDictionary<String, IType> typeEnv) throws TypeException {
+       if(expression.typeCheck(typeEnv).equals(new StringType())) {
+           return typeEnv;
+       } else {
+           throw new TypeException("Close file statement: expression is not a string");
+       }
     }
 }

@@ -10,5 +10,5 @@ public interface MyIDictionary<K, V> {
     void remove(K key);
     void clear();
     Map<K, V> toMap();
-    void setDictionary(Map<K, V> map);
+    MyIDictionary<K, V> deepCopy();
 }

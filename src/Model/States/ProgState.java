@@ -65,7 +65,7 @@ public class ProgState {
     }
 
     public Boolean isNotCompleted() {
-        return executionStack.size() > 0;
+        return !executionStack.isEmpty();
     }
 
     public ProgState oneStep() throws ExecutionStackException {

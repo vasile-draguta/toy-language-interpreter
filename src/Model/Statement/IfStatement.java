@@ -1,8 +1,12 @@
 package Model.Statement;
 
 import Exceptions.StatementException;
+import Exceptions.TypeException;
 import Model.Expression.IExpression;
 import Model.States.ProgState;
+import Model.Types.BooleanType;
+import Model.Types.IType;
+import Model.Utils.MyIDictionary;
 import Model.Values.BooleanValue;
 import Model.Values.IValue;
 
@@ -41,5 +45,18 @@ public class IfStatement implements IStatement {
             state.getExecutionStack().push(elseStatement);
         }
         return null;
+    }
+
+    @Override
+    public MyIDictionary<String, IType> typeCheck(MyIDictionary<String, IType> typeEnv) throws TypeException {
+        IType expressionType = expression.typeCheck(typeEnv);
+        if(expressionType.equals(new BooleanType())) {
+            thenStatement.typeCheck(typeEnv.deepCopy());
+            elseStatement.typeCheck(typeEnv.deepCopy());
+            return typeEnv;
+        }
+        else {
+            throw new TypeException("If statement requires a boolean expression");
+        }
     }
 }

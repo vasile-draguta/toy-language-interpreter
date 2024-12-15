@@ -12,6 +12,7 @@ import Model.States.Output.Output;
 import Model.States.ProgState;
 import Model.States.SymTable.ISymTable;
 import Model.States.SymTable.SymTable;
+import Model.Utils.MyDictionary;
 import Model.Utils.Pair;
 import Repository.IRepository;
 import Repository.Repository;
@@ -38,6 +39,7 @@ public class Main {
             IOutput output = new Output();
             IFileTable fileTable = new FileTable();
             IHeapTable heapTable = new HeapTable();
+            program.getValue().typeCheck(new MyDictionary<>());
             ProgState state = new ProgState(stack, symTable, output, fileTable, heapTable, program.getValue());
             Command command = new RunExampleCommand(Integer.toString(key), "Run: " + program.getKey(), controller, state);
             menu.addCommand(command);
