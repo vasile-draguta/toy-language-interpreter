@@ -130,7 +130,14 @@ public class Hardcoded {
                                                                             new CompStatement(new PrintStatement(new VariableExpression("v")),
                                                                                     new PrintStatement(new ReadHeapExpression(new VariableExpression("a"))))))),
                                                             new CompStatement(new PrintStatement(new VariableExpression("v")), new PrintStatement(new ReadHeapExpression(new VariableExpression("a"))))))))))
-                    
+
+//            ,new Pair<>("int a; bool b; b = a + 10;",
+//                    new CompStatement(new VarDeclStatement("a", new IntegerType()),
+//                            new CompStatement(new VarDeclStatement("b", new BooleanType()),
+//                                    new AssignStatement("b",
+//                                            new ArithmeticExpression("+",
+//                                                    new VariableExpression("a"),
+//                                                    new ValueExpression(new IntegerValue(10)))))))
     ));
 
     public static ArrayList<Pair<String, IStatement>> getHardcodedPrograms() {
