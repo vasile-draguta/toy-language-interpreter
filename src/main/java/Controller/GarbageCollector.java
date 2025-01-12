@@ -45,7 +45,7 @@ public class GarbageCollector {
         }
 
         List<Integer> reachableAddresses = states.stream().flatMap(state -> getAddressesFromSymTable(state).stream()).toList();
-        IHeapTable heapTable = states.getFirst().getHeapTable();
+        IHeapTable heapTable = states.get(0).getHeapTable();
         List<Integer> addressesList = heapTable.toMap().keySet().stream().filter(e -> !reachableAddresses.contains(e)).toList();
 
         addressesList.forEach(e -> {

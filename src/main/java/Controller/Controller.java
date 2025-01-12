@@ -1,9 +1,15 @@
 package Controller;
 
 import Exceptions.AppException;
+import Model.Statement.IStatement;
+import Model.States.ExecutionStack.ExecutionStack;
+import Model.States.FileTable.FileTable;
+import Model.States.HeapTable.HeapTable;
 import Model.States.Output.IOutput;
 import Model.States.Output.Output;
 import Model.States.ProgState;
+import Model.States.SymTable.SymTable;
+import Model.Utils.MyDictionary;
 import Repository.IRepository;
 
 import java.util.List;
@@ -92,6 +98,26 @@ public class Controller {
 
     public void addProgram(ProgState program) {
         repository.addProgramState(program);
+    }
+
+    public List<ProgState> getProgStates() {
+        return repository.getProgramList();
+    }
+
+    public void setProgram(IStatement statement) {
+        statement.typeCheck(new MyDictionary<>());
+
+        this.repository.clear();
+        addProgram(new ProgState(
+                new ExecutionStack(),
+                new SymTable(),
+                new Output(),
+                new FileTable(),
+                new HeapTable(),
+                statement));
+
+        this.repository.logProgramState(this.repository.getProgramList().get(0));
+
     }
 }
 

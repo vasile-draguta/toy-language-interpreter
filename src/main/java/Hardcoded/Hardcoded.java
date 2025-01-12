@@ -18,7 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Hardcoded {
-    private final static ArrayList<Pair<String, IStatement>> hardcodedPrograms = new ArrayList<>(List.of(
+    public final static ArrayList<Pair<String, IStatement>> hardcodedPrograms = new ArrayList<>(List.of(
             new Pair<>("int v; v=2; Print(v);",
                     new CompStatement(new VarDeclStatement("v", new IntegerType()),
                             new CompStatement(new AssignStatement("v", new ValueExpression(new IntegerValue(2))),

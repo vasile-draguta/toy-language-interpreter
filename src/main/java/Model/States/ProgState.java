@@ -41,7 +41,7 @@ public class ProgState {
     }
 
     public ProgState(IExecutionStack executionStack, ISymTable symTable, IOutput output, IFileTable fileTable, IHeapTable heapTable, IStatement originalProgram) {
-        this.id = getId();
+        this.id = getNextId();
         this.executionStack = executionStack;
         this.symTable = symTable;
         this.output = output;
@@ -51,7 +51,11 @@ public class ProgState {
         executionStack.push(originalProgram);
     }
 
-    public synchronized Integer getId() {
+    public Integer getId() {
+        return id;
+    }
+
+    public synchronized Integer getNextId() {
         return ++nextId;
     }
 

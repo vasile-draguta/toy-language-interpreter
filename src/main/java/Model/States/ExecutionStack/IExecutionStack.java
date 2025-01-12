@@ -14,4 +14,5 @@ public interface IExecutionStack {
     IStatement peek();
     List<IStatement> getStatements();
     void clear();
+    List<String> getStatementsString();
 }

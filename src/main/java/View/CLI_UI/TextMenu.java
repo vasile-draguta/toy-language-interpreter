@@ -1,9 +1,8 @@
-package View;
+package View.CLI_UI;
 
 
 import View.Command.Command;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;

@@ -3,6 +3,9 @@ package Model.States.Output;
 import Model.Utils.MyIList;
 import Model.Utils.MyList;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class Output implements IOutput {
     private MyIList<String> output;
@@ -13,8 +16,12 @@ public class Output implements IOutput {
     }
 
     @Override
-    public MyIList<String> getOutputAsList() {
-        return this.output;
+    public List<String> getOutputAsList() {
+        List<String> list = new ArrayList<>();
+        for (String s : output) {
+            list.add(s);
+        }
+        return list;
     }
 
     @Override

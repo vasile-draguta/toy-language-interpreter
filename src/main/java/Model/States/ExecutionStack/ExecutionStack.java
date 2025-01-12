@@ -5,6 +5,7 @@ import Model.Statement.IStatement;
 import Model.Utils.MyIStack;
 import Model.Utils.MyStack;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -70,6 +71,26 @@ public class ExecutionStack implements IExecutionStack {
     @Override
     public List<IStatement> getStatements() {
         return stack.toList();
+    }
+
+    @Override
+    public List<String> getStatementsString() {
+        List<String> result = new ArrayList<>();
+        MyIStack<IStatement> copy = new MyStack<>();
+        try {
+            while(!stack.isEmpty()) {
+                IStatement statement = stack.pop();
+                result.add(statement.toString());
+                copy.push(statement);
+            }
+            while(!copy.isEmpty()) {
+                stack.push(copy.pop());
+            }
+        }
+        catch (ExecutionStackException e) {
+            throw new ExecutionStackException("Execution stack is empty");
+        }
+        return result;
     }
 
 
