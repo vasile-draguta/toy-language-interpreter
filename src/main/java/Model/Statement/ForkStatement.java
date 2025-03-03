@@ -4,8 +4,7 @@ import Exceptions.StatementException;
 import Exceptions.TypeException;
 import Model.States.ExecutionStack.ExecutionStack;
 import Model.States.ProgState;
-import Model.States.SemaphoreTable.SemaphoreTable;
-import Model.Types.BooleanType;
+
 import Model.Types.IType;
 import Model.Utils.MyIDictionary;
 

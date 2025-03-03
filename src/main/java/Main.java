@@ -1,13 +1,8 @@
 import Controller.Controller;
-import Hardcoded.Hardcoded;
-import Model.Statement.IStatement;
-import Model.Utils.Pair;
 import Repository.IRepository;
 import Repository.Repository;
-import View.CLI.TextMenu;
 import View.GUI.MainWindow;
 
-import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {

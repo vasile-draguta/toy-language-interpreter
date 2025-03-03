@@ -1,7 +1,6 @@
 package View.GUI;
 
 import Controller.Controller;
-import Model.Statement.IStatement;
 import Model.States.FileTable.IFileTable;
 import Model.States.HeapTable.IHeapTable;
 import Model.States.Output.IOutput;
@@ -15,7 +14,6 @@ import javafx.scene.control.*;
 import javafx.util.Pair;
 
 import java.util.List;
-import java.util.NoSuchElementException;
 
 public class MainWindowController {
     Controller controller;
