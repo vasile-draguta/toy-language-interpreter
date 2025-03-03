@@ -1,7 +1,7 @@
-package View.CLI_UI;
+package View.CLI;
 
 
-import View.Command.Command;
+import View.CLI.Command.Command;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

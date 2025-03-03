@@ -6,6 +6,8 @@ import Model.States.ExecutionStack.IExecutionStack;
 import Model.States.FileTable.IFileTable;
 import Model.States.HeapTable.IHeapTable;
 import Model.States.Output.IOutput;
+import Model.States.SemaphoreTable.ISemaphoreTable;
+import Model.States.SemaphoreTable.SemaphoreTable;
 import Model.States.SymTable.ISymTable;
 
 
@@ -18,6 +20,7 @@ public class ProgState {
     private final IFileTable fileTable;
     private final IHeapTable heapTable;
     private final IStatement originalProgram;
+    private final ISemaphoreTable semaphoreTable;
 
 
     public IExecutionStack getExecutionStack() {
@@ -40,6 +43,10 @@ public class ProgState {
         return heapTable;
     }
 
+    public ISemaphoreTable getSemaphoreTable() {
+        return semaphoreTable;
+    }
+
     public ProgState(IExecutionStack executionStack, ISymTable symTable, IOutput output, IFileTable fileTable, IHeapTable heapTable, IStatement originalProgram) {
         this.id = getNextId();
         this.executionStack = executionStack;
@@ -49,6 +56,19 @@ public class ProgState {
         this.originalProgram = originalProgram;
         this.heapTable = heapTable;
         executionStack.push(originalProgram);
+        this.semaphoreTable = new SemaphoreTable();
+    }
+
+    public ProgState(IExecutionStack executionStack, ISymTable symTable, IOutput output, IFileTable fileTable, IHeapTable heapTable, IStatement originalProgram, ISemaphoreTable semaphoreTable) {
+        this.id = getNextId();
+        this.executionStack = executionStack;
+        this.symTable = symTable;
+        this.output = output;
+        this.fileTable = fileTable;
+        this.originalProgram = originalProgram;
+        this.heapTable = heapTable;
+        executionStack.push(originalProgram);
+        this.semaphoreTable = semaphoreTable;
     }
 
     public Integer getId() {
@@ -66,6 +86,7 @@ public class ProgState {
         fileTable.clear();
         heapTable.clear();
         executionStack.push(originalProgram);
+        semaphoreTable.clear();
     }
 
     public Boolean isNotCompleted() {
@@ -88,6 +109,7 @@ public class ProgState {
                 "Output: " + output.toString() + "\n" +
                 "File Table: " + fileTable.toString() + "\n" +
                 "Heap Table: " + heapTable.toString() + "\n" +
+                "Semaphore Table: " + semaphoreTable.toString() + "\n" +
                 "-------------------\n";
     }
 }

@@ -4,6 +4,7 @@ import Exceptions.StatementException;
 import Exceptions.TypeException;
 import Model.States.ExecutionStack.ExecutionStack;
 import Model.States.ProgState;
+import Model.States.SemaphoreTable.SemaphoreTable;
 import Model.Types.BooleanType;
 import Model.Types.IType;
 import Model.Utils.MyIDictionary;
@@ -22,7 +23,8 @@ public class ForkStatement implements IStatement{
                 state.getOutput(),
                 state.getFileTable(),
                 state.getHeapTable(),
-                innerStatement);
+                innerStatement,
+                state.getSemaphoreTable());
     }
 
     @Override

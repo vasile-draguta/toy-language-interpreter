@@ -1,4 +1,4 @@
-package View.Command;
+package View.CLI.Command;
 
 import Controller.Controller;
 import Model.States.ProgState;

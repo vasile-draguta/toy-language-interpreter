@@ -8,6 +8,7 @@ import Model.States.HeapTable.HeapTable;
 import Model.States.Output.IOutput;
 import Model.States.Output.Output;
 import Model.States.ProgState;
+import Model.States.SemaphoreTable.SemaphoreTable;
 import Model.States.SymTable.SymTable;
 import Model.Utils.MyDictionary;
 import Repository.IRepository;
@@ -15,6 +16,8 @@ import Repository.IRepository;
 import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.*;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.stream.Collectors;
 
 public class Controller {
@@ -107,6 +110,8 @@ public class Controller {
     public void setProgram(IStatement statement) {
         statement.typeCheck(new MyDictionary<>());
 
+        executor = Executors.newFixedThreadPool(2);
+
         this.repository.clear();
         addProgram(new ProgState(
                 new ExecutionStack(),
@@ -114,7 +119,8 @@ public class Controller {
                 new Output(),
                 new FileTable(),
                 new HeapTable(),
-                statement));
+                statement,
+                new SemaphoreTable()));
 
         this.repository.logProgramState(this.repository.getProgramList().get(0));
 

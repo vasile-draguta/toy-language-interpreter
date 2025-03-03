@@ -129,16 +129,55 @@ public class Hardcoded {
                                                                     new CompStatement(new AssignStatement("v",new ValueExpression(new IntegerValue(32))),
                                                                             new CompStatement(new PrintStatement(new VariableExpression("v")),
                                                                                     new PrintStatement(new ReadHeapExpression(new VariableExpression("a"))))))),
-                                                            new CompStatement(new PrintStatement(new VariableExpression("v")), new PrintStatement(new ReadHeapExpression(new VariableExpression("a"))))))))))
+                                                            new CompStatement(new PrintStatement(new VariableExpression("v")), new PrintStatement(new ReadHeapExpression(new VariableExpression("a")))))))))),
 
-//            ,new Pair<>("int a; bool b; b = a + 10;",
-//                    new CompStatement(new VarDeclStatement("a", new IntegerType()),
-//                            new CompStatement(new VarDeclStatement("b", new BooleanType()),
-//                                    new AssignStatement("b",
-//                                            new ArithmeticExpression("+",
-//                                                    new VariableExpression("a"),
-//                                                    new ValueExpression(new IntegerValue(10)))))))
-    ));
+            new Pair<>("int a; int b; int c; a=1; b=2; c=5; switch(a*10) (case (b*c) print(a); print(b); case (10) print(100); print(200); default print(300)); print(300)",
+                    new CompStatement(new VarDeclStatement("a", new IntegerType()),
+                            new CompStatement(new VarDeclStatement("b", new IntegerType()),
+                                    new CompStatement(new VarDeclStatement("c", new IntegerType()),
+                                            new CompStatement(new AssignStatement("a", new ValueExpression(new IntegerValue(1))),
+                                                    new CompStatement(new AssignStatement("b", new ValueExpression(new IntegerValue(2))),
+                                                            new CompStatement(new AssignStatement("c", new ValueExpression(new IntegerValue(5))),
+                                                                    new CompStatement(new SwitchStatement(new ArithmeticExpression("*",
+                                                                            new VariableExpression("a"),
+                                                                            new ValueExpression(new IntegerValue(10))),
+                                                                            new ArithmeticExpression("*",
+                                                                                    new VariableExpression("b"),
+                                                                                    new VariableExpression("c")),
+                                                                            new CompStatement(new PrintStatement(new VariableExpression("a")),
+                                                                                    new PrintStatement(new VariableExpression("b"))),
+                                                                            new ValueExpression(new IntegerValue(10)),
+                                                                            new CompStatement(new PrintStatement(new ValueExpression(new IntegerValue(100))),
+                                                                                    new PrintStatement(new ValueExpression(new IntegerValue(200)))),
+                                                                            new PrintStatement(new ValueExpression(new IntegerValue(300)))),
+                                                                            new PrintStatement(new ValueExpression(new IntegerValue(300))))))))))),
+
+            new Pair<>("Ref int v1, int cnt; new(v1, 1); createSemaphore(cnt, rH(v1)); fork(acquire(cnt); wH(v1, rH(v1) * 10); print(rH(v1)); release(cnt)); fork(acquire(cnt); wH(v1, rH(v1) * 10); wH(v1, rH(v1) * 2); print(rH(v1)); release(cnt)); acquire(cnt); print(rH(v1) - 1); release(cnt);",
+                    new CompStatement(new VarDeclStatement("v1", new RefType(new IntegerType())),
+                            new CompStatement(new VarDeclStatement("cnt", new IntegerType()),
+                                    new CompStatement(new NewStatement("v1", new ValueExpression(new IntegerValue(1))),
+                                            new CompStatement(new CreateSemaphoreStatement("cnt", new ReadHeapExpression(new VariableExpression("v1"))),
+                                                    new CompStatement(new ForkStatement(
+                                                            new CompStatement(new AcquireStatement("cnt"),
+                                                                    new CompStatement(new WriteHeapStatement("v1", new ArithmeticExpression("*",
+                                                                            new ReadHeapExpression(new VariableExpression("v1")),
+                                                                            new ValueExpression(new IntegerValue(10)))),
+                                                                            new CompStatement(new PrintStatement(new ReadHeapExpression(new VariableExpression("v1"))),
+                                                                                    new ReleaseStatement("cnt"))))),
+                                                            new CompStatement(new ForkStatement(
+                                                                    new CompStatement(new AcquireStatement("cnt"),
+                                                                            new CompStatement(new WriteHeapStatement("v1", new ArithmeticExpression("*",
+                                                                                    new ReadHeapExpression(new VariableExpression("v1")),
+                                                                                    new ValueExpression(new IntegerValue(10)))),
+                                                                                    new CompStatement(new WriteHeapStatement("v1", new ArithmeticExpression("*",
+                                                                                            new ReadHeapExpression(new VariableExpression("v1")),
+                                                                                            new ValueExpression(new IntegerValue(2)))),
+                                                                                            new CompStatement(new PrintStatement(new ReadHeapExpression(new VariableExpression("v1"))),
+                                                                                                    new ReleaseStatement("cnt")))))),
+                                                                    new CompStatement(new AcquireStatement("cnt"),
+                                                                            new CompStatement(new PrintStatement(new ArithmeticExpression("-", new ReadHeapExpression(new VariableExpression("v1")), new ValueExpression(new IntegerValue(1)))),
+                                                                                    new ReleaseStatement("cnt"))))))))))
+            ));
 
     public static ArrayList<Pair<String, IStatement>> getHardcodedPrograms() {
         return hardcodedPrograms;

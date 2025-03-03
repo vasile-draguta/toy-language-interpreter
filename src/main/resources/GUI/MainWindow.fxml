@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="506.0" prefWidth="608.0" spacing="5.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.GUI.MainWindowController">
+<VBox prefHeight="494.0" prefWidth="629.0" spacing="5.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.GUI.MainWindowController">
     <!--      fx:controller="gui.interpreter.MWC">-->
 
     <children>
@@ -25,28 +25,27 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
             </rowConstraints>
             <children>
-                <VBox alignment="TOP_CENTER" GridPane.rowIndex="0" GridPane.columnIndex="0">
+                <VBox alignment="TOP_CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0">
                     <children>
                         <Label fx:id="programStatesLabel" prefHeight="17.0" prefWidth="118.0" text="Program States" />
                         <ListView fx:id="programStatesListView" accessibleText="Program States" prefHeight="200.0" prefWidth="200.0" />
                     </children>
                 </VBox>
-                <VBox alignment="TOP_CENTER" GridPane.rowIndex="0" GridPane.columnIndex="1">
+                <VBox alignment="TOP_CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0">
                     <children>
                         <Label contentDisplay="CENTER" text="Output" />
                         <ListView fx:id="outListView" prefHeight="200.0" prefWidth="200.0" />
                     </children>
                 </VBox>
-                <VBox alignment="TOP_CENTER" GridPane.rowIndex="1" GridPane.columnIndex="0">
+                <VBox alignment="TOP_CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1">
                     <children>
                         <Label text="Execution Stack" />
                         <ListView fx:id="executionStackListView" prefHeight="200.0" prefWidth="200.0" />
                     </children>
                 </VBox>
-                <VBox alignment="TOP_CENTER" GridPane.rowIndex="1" GridPane.columnIndex="1">
+                <VBox alignment="TOP_CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
                     <children>
                         <Label text="Symbol Table" />
                         <TableView fx:id="symbolTableTableView" prefHeight="200.0" prefWidth="200.0">
@@ -57,13 +56,13 @@
                         </TableView>
                     </children>
                 </VBox>
-                <VBox alignment="TOP_CENTER" GridPane.rowIndex="2" GridPane.columnIndex="0">
+                <VBox alignment="TOP_CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2">
                     <children>
                         <Label text="File Table" />
                         <ListView fx:id="fileTableListView" prefHeight="200.0" prefWidth="200.0" />
                     </children>
                 </VBox>
-                <VBox alignment="TOP_CENTER" GridPane.rowIndex="2" GridPane.columnIndex="1">
+                <VBox alignment="TOP_CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
                     <children>
                         <Label text="Heap Table" />
                         <TableView fx:id="heapTableTableView" prefHeight="200.0" prefWidth="200.0">
@@ -74,12 +73,24 @@
                         </TableView>
                     </children>
                 </VBox>
-                <Button fx:id="oneStepButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="One Step" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
-                    <GridPane.margin>
-                        <Insets />
-                    </GridPane.margin>
-                </Button>
-                <Button fx:id="runButton" mnemonicParsing="false" text="Run" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="3">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="311.0" text="Semaphore Table" />
+                  <TableView fx:id="semaphoreTableView" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="semaphoreIndexColumn" prefWidth="75.0" text="Index" />
+                      <TableColumn fx:id="semaphoreValueColumn" prefWidth="83.0" text="Value" />
+                        <TableColumn fx:id="semaphoreValuesListColumn" prefWidth="146.0" text="List of Values" />
+                    </columns>
+                  </TableView>
+               </children>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <children>
+                      <Button fx:id="oneStepButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="57.0" prefWidth="304.0" text="One Step" textAlignment="CENTER" />
+                      <Button fx:id="runButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="67.0" prefWidth="304.0" text="Run" />
+               </children>
+            </VBox>
             </children>
         </GridPane>
     </children>
